@@ -35,7 +35,6 @@
         "dompdf/dompdf": "^0.8.5",
         "drupal/address": "1.8",
         "drupal/admin_toolbar": "2.3",
-        "drupal/aegan": "^1.1",
         "drupal/anchor_link": "2.4",
         "drupal/asset_injector": "2.7",
         "drupal/at_tools": "3.2",
