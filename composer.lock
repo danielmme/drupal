@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bd9f6aef65073ce65c4bc4594d6ac07",
+    "content-hash": "92f60e0dfd66f7e19f8820d575ab5c2b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -10774,6 +10774,32 @@
                 }
             ],
             "time": "2020-10-02T17:40:55+00:00"
+        },
+        {
+            "name": "fflch/fflch-theme",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fflch/fflch-theme.git",
+                "reference": "9520a04a33da2df3593c80a8959c86563e3e7e3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fflch/fflch-theme/zipball/9520a04a33da2df3593c80a8959c86563e3e7e3a",
+                "reference": "9520a04a33da2df3593c80a8959c86563e3e7e3a",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "FFLCH",
+            "homepage": "https://github.com/fflch/fflch-theme",
+            "keywords": [
+                "drupal"
+            ],
+            "time": "2021-01-19T20:08:12+00:00"
         },
         {
             "name": "gasparesganga/php-shapefile",

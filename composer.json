@@ -12,14 +12,6 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         },
-        "csvimporter": {
-            "type": "git",
-            "url": "https://github.com/fflch/csv_importer.git"
-        },
-        "jquery_countdown_timer": {
-            "type": "git",
-            "url": "https://github.com/fflch/jquery_countdown_timer.git"
-        },
         "webform_boleto_usp": {
             "type": "git",
             "url": "https://github.com/uspdev/webform_boleto_usp.git"
@@ -180,6 +172,7 @@
         "drupal/youtube_playlist": "1.x-dev#2e033f41",
         "drush/drush": "8.x",
         "fflch/cem-theme": "dev-master",
+        "fflch/fflch-theme": "^1.0",
         "npm-asset/ckeditor_youtube": "2.1.15",
         "npm-asset/fakeobjects": "4.15.0",
         "npm-asset/juicebox_lite": "1.5.1",
