@@ -1,0 +1,23 @@
+uuid: c5afb1ed-c112-4510-b42d-4a78a3056ae9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_inicial
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_pagina_inicial
+field_name: field_pagina_inicial
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Página Inicial'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

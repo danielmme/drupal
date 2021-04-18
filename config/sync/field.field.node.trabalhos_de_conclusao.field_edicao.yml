@@ -1,0 +1,19 @@
+uuid: e972580d-df8f-4f4f-ad88-17ec9d5a776d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edicao
+    - node.type.trabalhos_de_conclusao
+id: node.trabalhos_de_conclusao.field_edicao
+field_name: field_edicao
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: Edição
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

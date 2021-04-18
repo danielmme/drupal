@@ -1,0 +1,23 @@
+uuid: 1532d581-c453-410c-8be8-12b575f5bd93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_inicial
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_pagina_inicial
+field_name: field_pagina_inicial
+entity_type: node
+bundle: producoes_visuais
+label: 'Página Inicial'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

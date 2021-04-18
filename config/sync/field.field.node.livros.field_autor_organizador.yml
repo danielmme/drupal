@@ -1,0 +1,19 @@
+uuid: 93cf6db7-e4db-42e2-9bd2-8ea7f4550ee3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_organizador
+    - node.type.livros
+id: node.livros.field_autor_organizador
+field_name: field_autor_organizador
+entity_type: node
+bundle: livros
+label: 'Autor Organizador'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 807f4cbf-86c6-46e3-8dfa-58fffebf2b88
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_material
+    - node.type.producoes_periodicos_cientificos
+  module:
+    - options
+id: node.producoes_periodicos_cientificos.field_tipo_de_material
+field_name: field_tipo_de_material
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Tipo de Material'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

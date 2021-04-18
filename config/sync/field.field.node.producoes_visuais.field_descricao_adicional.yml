@@ -1,0 +1,19 @@
+uuid: 8e53b19f-fad4-4e8d-9769-4f3273192eeb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descricao_adicional
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_descricao_adicional
+field_name: field_descricao_adicional
+entity_type: node
+bundle: producoes_visuais
+label: 'Descrição Adicional'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

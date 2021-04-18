@@ -1,0 +1,29 @@
+uuid: c10226a4-b82b-4a56-a798-81d51e7dc35a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disciplinas
+    - node.type.livros
+    - taxonomy.vocabulary.disciplina
+id: node.livros.field_disciplinas
+field_name: field_disciplinas
+entity_type: node
+bundle: livros
+label: Disciplina
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      disciplina: disciplina
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

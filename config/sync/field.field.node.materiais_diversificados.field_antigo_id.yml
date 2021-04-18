@@ -1,0 +1,19 @@
+uuid: 121c43e1-5a85-4e1b-a59e-fb406680f002
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_antigo_id
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_antigo_id
+field_name: field_antigo_id
+entity_type: node
+bundle: materiais_diversificados
+label: 'Antigo ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

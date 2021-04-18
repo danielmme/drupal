@@ -1,0 +1,8 @@
+uuid: 879ef709-582a-417c-9f00-e5aa7af7e8b7
+langcode: pt-br
+status: true
+dependencies: {  }
+id: dia_mes_ano
+label: dia/mes/ano
+locked: false
+pattern: d/m/Y

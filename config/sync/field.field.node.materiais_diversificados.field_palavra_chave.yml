@@ -1,0 +1,19 @@
+uuid: 1f23f7be-7b56-490b-876c-41a94fce396c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_palavra_chave
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_palavra_chave
+field_name: field_palavra_chave
+entity_type: node
+bundle: materiais_diversificados
+label: 'Palavras chave'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

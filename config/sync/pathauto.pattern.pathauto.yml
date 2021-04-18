@@ -1,0 +1,24 @@
+uuid: fba21bc7-66c1-4bf7-a321-c42a917f8189
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: pathauto
+label: pathauto
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  86355498-4e13-4bca-84a2-0b3fe355fcea:
+    id: node_type
+    bundles:
+      page: page
+      book: book
+      webform: webform
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 86355498-4e13-4bca-84a2-0b3fe355fcea
+selection_logic: and
+weight: -5
+relationships: {  }

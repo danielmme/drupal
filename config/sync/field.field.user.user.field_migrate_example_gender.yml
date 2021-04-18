@@ -1,0 +1,22 @@
+uuid: a203e9cc-281b-40d0-b44a-5770af322fda
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_migrate_example_gender
+  module:
+    - user
+_core:
+  default_config_hash: '-13X2hbfPYQnoVLm2sC5J6tVgYycYRTicNxDqunahwU'
+id: user.user.field_migrate_example_gender
+field_name: field_migrate_example_gender
+entity_type: user
+bundle: user
+label: Gender
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

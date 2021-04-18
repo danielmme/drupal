@@ -1,0 +1,30 @@
+uuid: 1f2cf1d9-f75c-447a-9c12-85a2f8004a6c
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tipo_de_material_visual
+field_name: field_tipo_de_material_visual
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: iconografia
+      label: Iconografia
+    -
+      value: material_audiovisual
+      label: 'Material Audiovisual'
+    -
+      value: material_cartografico
+      label: 'Material Cartográfico'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

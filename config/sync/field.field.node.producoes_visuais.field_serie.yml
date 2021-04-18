@@ -1,0 +1,19 @@
+uuid: e5f48767-5b98-45f7-8267-b98ef33140f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_serie
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_serie
+field_name: field_serie
+entity_type: node
+bundle: producoes_visuais
+label: Série
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

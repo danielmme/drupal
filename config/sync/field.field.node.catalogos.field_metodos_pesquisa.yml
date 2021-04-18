@@ -1,0 +1,21 @@
+uuid: dc3cd340-2305-47eb-9072-cde887d6091b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metodos_pesquisa
+    - node.type.catalogos
+  module:
+    - options
+id: node.catalogos.field_metodos_pesquisa
+field_name: field_metodos_pesquisa
+entity_type: node
+bundle: catalogos
+label: 'Método e Técnica de Pesquisa'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

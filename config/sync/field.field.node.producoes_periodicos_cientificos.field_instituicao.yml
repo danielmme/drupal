@@ -1,0 +1,19 @@
+uuid: 67dd2f47-15c4-4990-9a0e-a6aa86d8a328
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instituicao
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_instituicao
+field_name: field_instituicao
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: Instituição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

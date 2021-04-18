@@ -1,0 +1,609 @@
+uuid: d10fdaf4-e576-41f7-ad25-ed1c1cfa1b61
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_pais
+field_name: field_pais
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Afeganistão
+      label: Afeganistão
+    -
+      value: 'África do Sul'
+      label: 'África do Sul'
+    -
+      value: Albânia
+      label: Albânia
+    -
+      value: Alemanha
+      label: Alemanha
+    -
+      value: Andorra
+      label: Andorra
+    -
+      value: Angola
+      label: Angola
+    -
+      value: 'Antiga e Barbuda'
+      label: 'Antiga e Barbuda'
+    -
+      value: 'Arábia Saudita'
+      label: 'Arábia Saudita'
+    -
+      value: Argélia
+      label: Argélia
+    -
+      value: Argentina
+      label: Argentina
+    -
+      value: Arménia
+      label: Arménia
+    -
+      value: Austrália
+      label: Austrália
+    -
+      value: Áustria
+      label: Áustria
+    -
+      value: Azerbaijão
+      label: Azerbaijão
+    -
+      value: Bahamas
+      label: Bahamas
+    -
+      value: Bangladexe
+      label: Bangladexe
+    -
+      value: Barbados
+      label: Barbados
+    -
+      value: Barém
+      label: Barém
+    -
+      value: Bélgica
+      label: Bélgica
+    -
+      value: Belize
+      label: Belize
+    -
+      value: Benim
+      label: Benim
+    -
+      value: Bielorrússia
+      label: Bielorrússia
+    -
+      value: Bolívia
+      label: Bolívia
+    -
+      value: 'Bósnia e Herzegovina'
+      label: 'Bósnia e Herzegovina'
+    -
+      value: Botsuana
+      label: Botsuana
+    -
+      value: Brunei
+      label: Brunei
+    -
+      value: Bulgária
+      label: Bulgária
+    -
+      value: 'Burquina Faso'
+      label: 'Burquina Faso'
+    -
+      value: Burúndi
+      label: Burúndi
+    -
+      value: Butão
+      label: Butão
+    -
+      value: 'Cabo Verde'
+      label: 'Cabo Verde'
+    -
+      value: Camarões
+      label: Camarões
+    -
+      value: Camboja
+      label: Camboja
+    -
+      value: Canadá
+      label: Canadá
+    -
+      value: Catar
+      label: Catar
+    -
+      value: Cazaquistão
+      label: Cazaquistão
+    -
+      value: Chade
+      label: Chade
+    -
+      value: Chile
+      label: Chile
+    -
+      value: China
+      label: China
+    -
+      value: Chipre
+      label: Chipre
+    -
+      value: Colômbia
+      label: Colômbia
+    -
+      value: Comores
+      label: Comores
+    -
+      value: Congo-Brazzaville
+      label: Congo-Brazzaville
+    -
+      value: 'Coreia do Norte'
+      label: 'Coreia do Norte'
+    -
+      value: 'Coreia do Sul'
+      label: 'Coreia do Sul'
+    -
+      value: Cosovo
+      label: Cosovo
+    -
+      value: 'Costa do Marfim'
+      label: 'Costa do Marfim'
+    -
+      value: 'Costa Rica'
+      label: 'Costa Rica'
+    -
+      value: Croácia
+      label: Croácia
+    -
+      value: Cuaite
+      label: Cuaite
+    -
+      value: Cuba
+      label: Cuba
+    -
+      value: Dinamarca
+      label: Dinamarca
+    -
+      value: Dominica
+      label: Dominica
+    -
+      value: Egito
+      label: Egito
+    -
+      value: 'Emirados Árabes Unidos'
+      label: 'Emirados Árabes Unidos'
+    -
+      value: Equador
+      label: Equador
+    -
+      value: Eritreia
+      label: Eritreia
+    -
+      value: Eslováquia
+      label: Eslováquia
+    -
+      value: Eslovénia
+      label: Eslovénia
+    -
+      value: Espanha
+      label: Espanha
+    -
+      value: 'Estado da Palestina'
+      label: 'Estado da Palestina'
+    -
+      value: 'Estados Unidos'
+      label: 'Estados Unidos'
+    -
+      value: Estónia
+      label: Estónia
+    -
+      value: Etiópia
+      label: Etiópia
+    -
+      value: Fiji
+      label: Fiji
+    -
+      value: Filipinas
+      label: Filipinas
+    -
+      value: Finlândia
+      label: Finlândia
+    -
+      value: França
+      label: França
+    -
+      value: Gabão
+      label: Gabão
+    -
+      value: Gâmbia
+      label: Gâmbia
+    -
+      value: Gana
+      label: Gana
+    -
+      value: Geórgia
+      label: Geórgia
+    -
+      value: Granada
+      label: Granada
+    -
+      value: Grécia
+      label: Grécia
+    -
+      value: Guatemala
+      label: Guatemala
+    -
+      value: Guiana
+      label: Guiana
+    -
+      value: Guiné
+      label: Guiné
+    -
+      value: 'Guiné Equatorial'
+      label: 'Guiné Equatorial'
+    -
+      value: Guiné-Bissau
+      label: Guiné-Bissau
+    -
+      value: Haiti
+      label: Haiti
+    -
+      value: Honduras
+      label: Honduras
+    -
+      value: Hungria
+      label: Hungria
+    -
+      value: Iémen
+      label: Iémen
+    -
+      value: 'Ilhas Marechal'
+      label: 'Ilhas Marechal'
+    -
+      value: Índia
+      label: Índia
+    -
+      value: Indonésia
+      label: Indonésia
+    -
+      value: Irão
+      label: Irão
+    -
+      value: Iraque
+      label: Iraque
+    -
+      value: Irlanda
+      label: Irlanda
+    -
+      value: Islândia
+      label: Islândia
+    -
+      value: Israel
+      label: Israel
+    -
+      value: Itália
+      label: Itália
+    -
+      value: Jamaica
+      label: Jamaica
+    -
+      value: Japão
+      label: Japão
+    -
+      value: Jibuti
+      label: Jibuti
+    -
+      value: Jordânia
+      label: Jordânia
+    -
+      value: Laus
+      label: Laus
+    -
+      value: Lesoto
+      label: Lesoto
+    -
+      value: Letónia
+      label: Letónia
+    -
+      value: Líbano
+      label: Líbano
+    -
+      value: Libéria
+      label: Libéria
+    -
+      value: Líbia
+      label: Líbia
+    -
+      value: Listenstaine
+      label: Listenstaine
+    -
+      value: Lituânia
+      label: Lituânia
+    -
+      value: Luxemburgo
+      label: Luxemburgo
+    -
+      value: Macedónia
+      label: Macedónia
+    -
+      value: Madagáscar
+      label: Madagáscar
+    -
+      value: Malásia
+      label: Malásia
+    -
+      value: Maláui
+      label: Maláui
+    -
+      value: Maldivas
+      label: Maldivas
+    -
+      value: Mali
+      label: Mali
+    -
+      value: Malta
+      label: Malta
+    -
+      value: Marrocos
+      label: Marrocos
+    -
+      value: Maurícia
+      label: Maurícia
+    -
+      value: Mauritânia
+      label: Mauritânia
+    -
+      value: México
+      label: México
+    -
+      value: Mianmar
+      label: Mianmar
+    -
+      value: Micronésia
+      label: Micronésia
+    -
+      value: Moçambique
+      label: Moçambique
+    -
+      value: Moldávia
+      label: Moldávia
+    -
+      value: Mónaco
+      label: Mónaco
+    -
+      value: Mongólia
+      label: Mongólia
+    -
+      value: Montenegro
+      label: Montenegro
+    -
+      value: Namíbia
+      label: Namíbia
+    -
+      value: Nauru
+      label: Nauru
+    -
+      value: Nepal
+      label: Nepal
+    -
+      value: Nicarágua
+      label: Nicarágua
+    -
+      value: Níger
+      label: Níger
+    -
+      value: Nigéria
+      label: Nigéria
+    -
+      value: Noruega
+      label: Noruega
+    -
+      value: 'Nova Zelândia'
+      label: 'Nova Zelândia'
+    -
+      value: Omã
+      label: Omã
+    -
+      value: 'Países Baixos'
+      label: 'Países Baixos'
+    -
+      value: Palau
+      label: Palau
+    -
+      value: Panamá
+      label: Panamá
+    -
+      value: 'Papua Nova Guiné'
+      label: 'Papua Nova Guiné'
+    -
+      value: Paquistão
+      label: Paquistão
+    -
+      value: Paraguai
+      label: Paraguai
+    -
+      value: Peru
+      label: Peru
+    -
+      value: Polónia
+      label: Polónia
+    -
+      value: Portugal
+      label: Portugal
+    -
+      value: Quénia
+      label: Quénia
+    -
+      value: Quirguistão
+      label: Quirguistão
+    -
+      value: Quiribáti
+      label: Quiribáti
+    -
+      value: 'Reino Unido'
+      label: 'Reino Unido'
+    -
+      value: 'República Centro-Africana'
+      label: 'República Centro-Africana'
+    -
+      value: 'República Checa'
+      label: 'República Checa'
+    -
+      value: 'República Democrática do Congo'
+      label: 'República Democrática do Congo'
+    -
+      value: 'República Dominicana'
+      label: 'República Dominicana'
+    -
+      value: Roménia
+      label: Roménia
+    -
+      value: Ruanda
+      label: Ruanda
+    -
+      value: Rússia
+      label: Rússia
+    -
+      value: Salomão
+      label: Salomão
+    -
+      value: Salvador
+      label: Salvador
+    -
+      value: Samoa
+      label: Samoa
+    -
+      value: 'Santa Lúcia'
+      label: 'Santa Lúcia'
+    -
+      value: 'São Cristóvão e Neves'
+      label: 'São Cristóvão e Neves'
+    -
+      value: 'São Marinho'
+      label: 'São Marinho'
+    -
+      value: 'São Tomé e Príncipe'
+      label: 'São Tomé e Príncipe'
+    -
+      value: 'São Vicente e Granadinas'
+      label: 'São Vicente e Granadinas'
+    -
+      value: Seicheles
+      label: Seicheles
+    -
+      value: Senegal
+      label: Senegal
+    -
+      value: 'Serra Leoa'
+      label: 'Serra Leoa'
+    -
+      value: Sérvia
+      label: Sérvia
+    -
+      value: Singapura
+      label: Singapura
+    -
+      value: Síria
+      label: Síria
+    -
+      value: Somália
+      label: Somália
+    -
+      value: 'Sri Lanca'
+      label: 'Sri Lanca'
+    -
+      value: Suazilândia
+      label: Suazilândia
+    -
+      value: Sudão
+      label: Sudão
+    -
+      value: 'Sudão do Sul'
+      label: 'Sudão do Sul'
+    -
+      value: Suécia
+      label: Suécia
+    -
+      value: Suíça
+      label: Suíça
+    -
+      value: Suriname
+      label: Suriname
+    -
+      value: Tailândia
+      label: Tailândia
+    -
+      value: Taiuã
+      label: Taiuã
+    -
+      value: Tajiquistão
+      label: Tajiquistão
+    -
+      value: Tanzânia
+      label: Tanzânia
+    -
+      value: Timor-Leste
+      label: Timor-Leste
+    -
+      value: Togo
+      label: Togo
+    -
+      value: Tonga
+      label: Tonga
+    -
+      value: 'Trindade e Tobago'
+      label: 'Trindade e Tobago'
+    -
+      value: Tunísia
+      label: Tunísia
+    -
+      value: Turcomenistão
+      label: Turcomenistão
+    -
+      value: Turquia
+      label: Turquia
+    -
+      value: Tuvalu
+      label: Tuvalu
+    -
+      value: Ucrânia
+      label: Ucrânia
+    -
+      value: Uganda
+      label: Uganda
+    -
+      value: Uruguai
+      label: Uruguai
+    -
+      value: Usbequistão
+      label: Usbequistão
+    -
+      value: Vanuatu
+      label: Vanuatu
+    -
+      value: Vaticano
+      label: Vaticano
+    -
+      value: Venezuela
+      label: Venezuela
+    -
+      value: Vietname
+      label: Vietname
+    -
+      value: Zâmbia
+      label: Zâmbia
+    -
+      value: Zimbábue
+      label: Zimbábue
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

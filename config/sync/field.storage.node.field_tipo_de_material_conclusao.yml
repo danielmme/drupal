@@ -1,0 +1,45 @@
+uuid: 684e7852-8335-4fd0-b6b3-52034e9d7aac
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tipo_de_material_conclusao
+field_name: field_tipo_de_material_conclusao
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: tese_titulariedade
+      label: 'Tese Titularidade'
+    -
+      value: livre_docencia
+      label: 'Livre Docência'
+    -
+      value: tese_doutorado
+      label: 'Tese Doutorado'
+    -
+      value: dissertacao_mestrado
+      label: 'Dissertação Mestrado'
+    -
+      value: trabalho_conclusao
+      label: 'Trabalho de Conclusão de Curso'
+    -
+      value: trabalho_especializacao
+      label: 'Trabalho de Especialização'
+    -
+      value: trabalho_iniciacao
+      label: 'Trabalho de Iniciação Científica'
+    -
+      value: outros
+      label: Outros
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

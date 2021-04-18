@@ -1,0 +1,11 @@
+uuid: 81f4cf40-2b0f-4e28-8659-bf634d6e7ecc
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.metodo_e_tecnica_de_pesquisa
+id: taxonomy_term.metodo_e_tecnica_de_pesquisa
+target_entity_type_id: taxonomy_term
+target_bundle: metodo_e_tecnica_de_pesquisa
+default_langcode: site_default
+language_alterable: false

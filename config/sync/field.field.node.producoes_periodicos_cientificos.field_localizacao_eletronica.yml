@@ -1,0 +1,19 @@
+uuid: 3df6f746-dba2-430e-ab39-ac305054c190
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localizacao_eletronica
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_localizacao_eletronica
+field_name: field_localizacao_eletronica
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Localização Eletrônica'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

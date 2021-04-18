@@ -1,0 +1,18 @@
+uuid: c1e37539-5d8f-4ce3-b182-2ea022676dc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.title
+field_name: title
+entity_type: node
+bundle: materiais_diversificados
+label: 'Título da Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

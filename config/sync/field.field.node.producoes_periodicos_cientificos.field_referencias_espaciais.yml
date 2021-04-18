@@ -1,0 +1,31 @@
+uuid: 85fcf5a6-aa07-40a2-8731-25d91e9a22de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_referencias_espaciais
+    - node.type.producoes_periodicos_cientificos
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - entity_reference_revisions
+id: node.producoes_periodicos_cientificos.field_referencias_espaciais
+field_name: field_referencias_espaciais
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Referência espacial'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      referencia_espacial: referencia_espacial
+    target_bundles_drag_drop:
+      referencia_espacial:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

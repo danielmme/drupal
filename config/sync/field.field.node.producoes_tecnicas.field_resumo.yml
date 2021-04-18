@@ -1,0 +1,21 @@
+uuid: e2da5aab-2cff-4f19-9b03-d58a300226b6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumo
+    - node.type.producoes_tecnicas
+  module:
+    - text
+id: node.producoes_tecnicas.field_resumo
+field_name: field_resumo
+entity_type: node
+bundle: producoes_tecnicas
+label: Resumo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

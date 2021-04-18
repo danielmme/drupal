@@ -1,0 +1,18 @@
+uuid: 719ff5f3-8fc8-4ff4-b254-6dca34328174
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.trabalhos_de_conclusao
+id: node.trabalhos_de_conclusao.title
+field_name: title
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Título da Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

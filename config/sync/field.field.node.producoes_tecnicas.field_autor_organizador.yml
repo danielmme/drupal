@@ -1,0 +1,19 @@
+uuid: b2bafb7e-9ea1-4f40-80bc-074596b7a278
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_organizador
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_autor_organizador
+field_name: field_autor_organizador
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Autor Organizador'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: 64dc6274-8692-45cc-a66f-e14a8843ff08
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.livros
+id: node.livros
+target_entity_type_id: node
+target_bundle: livros
+default_langcode: site_default
+language_alterable: false

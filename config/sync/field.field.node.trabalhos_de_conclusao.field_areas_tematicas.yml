@@ -1,0 +1,29 @@
+uuid: 4f226705-cd49-4d63-8d5e-6d01c9ca6c90
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_areas_tematicas
+    - node.type.trabalhos_de_conclusao
+    - taxonomy.vocabulary.area_tematica
+id: node.trabalhos_de_conclusao.field_areas_tematicas
+field_name: field_areas_tematicas
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Área Temática'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      area_tematica: area_tematica
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

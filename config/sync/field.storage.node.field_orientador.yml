@@ -1,0 +1,21 @@
+uuid: b7c7fea3-e6f0-4777-8912-d9eed2d20342
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_orientador
+field_name: field_orientador
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

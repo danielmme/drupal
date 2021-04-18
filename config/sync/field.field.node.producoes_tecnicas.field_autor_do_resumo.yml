@@ -1,0 +1,19 @@
+uuid: e8f2d104-dc8f-4701-9345-6c20ecb89e8d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_do_resumo
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_autor_do_resumo
+field_name: field_autor_do_resumo
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Autor do Resumo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 4575464a-a9f3-4fca-8d97-9c7bd3650ee0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano_publicacao
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_ano_publicacao
+field_name: field_ano_publicacao
+entity_type: node
+bundle: materiais_diversificados
+label: 'Ano de Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

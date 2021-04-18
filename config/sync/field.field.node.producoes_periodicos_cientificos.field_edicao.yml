@@ -1,0 +1,19 @@
+uuid: 865eb81c-58f3-45e6-be3f-e510a143c765
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edicao
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_edicao
+field_name: field_edicao
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: Edição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

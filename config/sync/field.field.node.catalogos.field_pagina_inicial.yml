@@ -1,0 +1,23 @@
+uuid: b616ec20-65d6-4d40-a65d-ec7a6becdc27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_inicial
+    - node.type.catalogos
+id: node.catalogos.field_pagina_inicial
+field_name: field_pagina_inicial
+entity_type: node
+bundle: catalogos
+label: 'Página Inicial'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

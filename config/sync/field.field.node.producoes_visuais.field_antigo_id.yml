@@ -1,0 +1,19 @@
+uuid: 09daabd9-c7bb-4810-bca2-3e77666551ac
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_antigo_id
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_antigo_id
+field_name: field_antigo_id
+entity_type: node
+bundle: producoes_visuais
+label: 'Antigo ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

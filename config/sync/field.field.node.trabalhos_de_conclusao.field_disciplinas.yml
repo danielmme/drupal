@@ -1,0 +1,29 @@
+uuid: eb8cc945-1ab2-496c-a182-8a9d41e89b11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disciplinas
+    - node.type.trabalhos_de_conclusao
+    - taxonomy.vocabulary.disciplina
+id: node.trabalhos_de_conclusao.field_disciplinas
+field_name: field_disciplinas
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: Disciplina
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      disciplina: disciplina
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

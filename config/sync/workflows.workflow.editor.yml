@@ -1,0 +1,65 @@
+uuid: cb6adb71-b85b-461f-9d7c-e062d7a5c176
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.catalogos
+    - node.type.livros
+    - node.type.materiais_diversificados
+    - node.type.producoes_periodicos_cientificos
+    - node.type.producoes_tecnicas
+    - node.type.producoes_visuais
+    - node.type.trabalhos_de_conclusao
+  module:
+    - content_moderation
+id: editor
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      published: false
+      default_revision: true
+      label: Archived
+      weight: 2
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: 0
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 1
+  transitions:
+    archived:
+      label: Archived
+      from:
+        - draft
+        - published
+      to: archived
+      weight: 2
+    create_new_draft:
+      label: 'Create New Draft'
+      to: draft
+      weight: 0
+      from:
+        - draft
+    publish:
+      label: Publish
+      to: published
+      weight: 1
+      from:
+        - draft
+        - published
+  entity_types:
+    node:
+      - catalogos
+      - livros
+      - materiais_diversificados
+      - producoes_periodicos_cientificos
+      - producoes_tecnicas
+      - producoes_visuais
+      - trabalhos_de_conclusao
+  default_moderation_state: draft

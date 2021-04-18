@@ -1,0 +1,19 @@
+uuid: d6adf0d9-d726-46f4-958e-e19d15e9596d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_escala
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_escala
+field_name: field_escala
+entity_type: node
+bundle: producoes_tecnicas
+label: Escala
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

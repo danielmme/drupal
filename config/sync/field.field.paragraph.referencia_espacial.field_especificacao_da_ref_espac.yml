@@ -1,0 +1,19 @@
+uuid: ddcdf0b9-1525-4c35-89d8-6f39eb07c387
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_especificacao_da_ref_espac
+    - paragraphs.paragraphs_type.referencia_espacial
+id: paragraph.referencia_espacial.field_especificacao_da_ref_espac
+field_name: field_especificacao_da_ref_espac
+entity_type: paragraph
+bundle: referencia_espacial
+label: 'Especificação da Referência Espacial'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

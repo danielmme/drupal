@@ -1,0 +1,21 @@
+uuid: 64f48c3f-8c83-4b04-afbf-3fbc1abbea11
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_material_livros
+    - node.type.livros
+  module:
+    - options
+id: node.livros.field_tipo_de_material_livros
+field_name: field_tipo_de_material_livros
+entity_type: node
+bundle: livros
+label: 'Tipo de material'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

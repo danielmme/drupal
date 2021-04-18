@@ -1,0 +1,27 @@
+uuid: 3f4c3ab5-956c-443e-ae6b-88187b9de169
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tipo_de_material_catalogos
+field_name: field_tipo_de_material_catalogos
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: catalogo_exposicao
+      label: 'Catálogo de Exposição'
+    -
+      value: catalogo_institucional
+      label: 'Catálogo Institucional'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

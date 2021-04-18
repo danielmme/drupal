@@ -1,0 +1,20 @@
+uuid: 492f4d8b-7692-4082-a07c-2559adf61a7d
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - fflch
+_core:
+  default_config_hash: zKT4xrIAHwi042RDw8RCjYnvWigc4YU6bHP9PixXnzI
+id: fflch_page_title
+theme: fflch
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  provider: core
+  label_display: '0'
+visibility: {  }

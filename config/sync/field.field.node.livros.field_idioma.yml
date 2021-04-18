@@ -1,0 +1,21 @@
+uuid: 90dff563-8ee6-47c6-9e34-8d25dfdbeffb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idioma
+    - node.type.livros
+  module:
+    - options
+id: node.livros.field_idioma
+field_name: field_idioma
+entity_type: node
+bundle: livros
+label: Idioma
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

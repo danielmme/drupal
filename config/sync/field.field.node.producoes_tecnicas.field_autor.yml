@@ -1,0 +1,19 @@
+uuid: 1b12ff05-43d3-4f05-8fb8-afc69ed1cd92
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_autor
+field_name: field_autor
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Autor (Cadastrante)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: be11bf40-1a6c-482c-8aa8-ba05f95aec8b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fonte
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_fonte
+field_name: field_fonte
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Material de origem'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

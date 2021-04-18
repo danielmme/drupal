@@ -1,0 +1,8 @@
+uuid: 60509d32-bc11-46ad-aad4-9b7944de45a3
+langcode: pt-br
+status: true
+dependencies: {  }
+name: 'Área Temática'
+vid: area_tematica
+description: ''
+weight: 0

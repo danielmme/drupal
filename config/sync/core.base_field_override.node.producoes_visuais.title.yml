@@ -1,0 +1,18 @@
+uuid: 14b42dd0-c3b9-4095-8468-9265d74e40aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.producoes_visuais
+id: node.producoes_visuais.title
+field_name: title
+entity_type: node
+bundle: producoes_visuais
+label: 'Título da Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

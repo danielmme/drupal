@@ -1,0 +1,21 @@
+uuid: 96374b10-2bd1-4cc2-880a-5a57650d023c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metodos_pesquisa
+    - node.type.trabalhos_de_conclusao
+  module:
+    - options
+id: node.trabalhos_de_conclusao.field_metodos_pesquisa
+field_name: field_metodos_pesquisa
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Método e Técnica de Pesquisa'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

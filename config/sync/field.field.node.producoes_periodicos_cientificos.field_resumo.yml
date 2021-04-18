@@ -1,0 +1,21 @@
+uuid: 67648d0d-17ab-4712-8ddf-240132078b9d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumo
+    - node.type.producoes_periodicos_cientificos
+  module:
+    - text
+id: node.producoes_periodicos_cientificos.field_resumo
+field_name: field_resumo
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: Resumo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

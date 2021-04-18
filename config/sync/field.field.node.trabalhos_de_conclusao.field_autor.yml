@@ -1,0 +1,19 @@
+uuid: 73f30771-ab60-40d1-b772-d5443c843494
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.trabalhos_de_conclusao
+id: node.trabalhos_de_conclusao.field_autor
+field_name: field_autor
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Autor (Cadastrante)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

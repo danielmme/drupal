@@ -1,0 +1,19 @@
+uuid: 71f74c96-396a-430e-8af4-ef2488948ac6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instituicao
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_instituicao
+field_name: field_instituicao
+entity_type: node
+bundle: materiais_diversificados
+label: Instituição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

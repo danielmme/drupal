@@ -1,0 +1,23 @@
+uuid: 958afca0-4429-4260-9087-f8c008421a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_inicial
+    - node.type.livros
+id: node.livros.field_pagina_inicial
+field_name: field_pagina_inicial
+entity_type: node
+bundle: livros
+label: 'Página Inicial'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

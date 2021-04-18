@@ -1,0 +1,23 @@
+uuid: 144b964d-d768-4aaa-a3e5-21c394a50a7f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_brasil
+    - paragraphs.paragraphs_type.referencia_espacial
+id: paragraph.referencia_espacial.field_brasil
+field_name: field_brasil
+entity_type: paragraph
+bundle: referencia_espacial
+label: Brasil
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

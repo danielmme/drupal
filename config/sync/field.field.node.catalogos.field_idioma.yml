@@ -1,0 +1,21 @@
+uuid: 34abceaf-7a99-4199-806f-4ee56f7d19f3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idioma
+    - node.type.catalogos
+  module:
+    - options
+id: node.catalogos.field_idioma
+field_name: field_idioma
+entity_type: node
+bundle: catalogos
+label: Idioma
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

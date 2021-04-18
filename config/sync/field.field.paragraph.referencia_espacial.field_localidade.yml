@@ -1,0 +1,19 @@
+uuid: e9ee746b-96a0-4bf3-be21-da7e639d2864
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_localidade
+    - paragraphs.paragraphs_type.referencia_espacial
+id: paragraph.referencia_espacial.field_localidade
+field_name: field_localidade
+entity_type: paragraph
+bundle: referencia_espacial
+label: Localidade
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

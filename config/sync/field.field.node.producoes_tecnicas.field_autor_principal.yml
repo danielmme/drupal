@@ -1,0 +1,19 @@
+uuid: 55d1f12b-589f-4c5a-8f11-9112fa8b2c53
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_principal
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_autor_principal
+field_name: field_autor_principal
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Autor Principal'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

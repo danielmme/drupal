@@ -1,0 +1,21 @@
+uuid: 9342e344-d64b-4df6-98de-0a470be280f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_palavra_chave
+field_name: field_palavra_chave
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

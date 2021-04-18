@@ -1,0 +1,23 @@
+uuid: f0c4bba6-f0e3-4d78-9476-7c3011f2d808
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idioma
+    - node.type.producoes_periodicos_cientificos
+  module:
+    - options
+id: node.producoes_periodicos_cientificos.field_idioma
+field_name: field_idioma
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: Idioma
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: portugues
+default_value_callback: ''
+settings: {  }
+field_type: list_string

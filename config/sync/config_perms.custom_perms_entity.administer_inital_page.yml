@@ -1,0 +1,7 @@
+uuid: 04d06c0e-4127-4020-92c6-8dccd89b6907
+langcode: en
+status: true
+dependencies: {  }
+id: administer_inital_page
+label: 'Administer Inital Page'
+route: system.site_information_settings

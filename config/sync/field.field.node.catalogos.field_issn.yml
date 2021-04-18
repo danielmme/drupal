@@ -1,0 +1,19 @@
+uuid: 9a3b5feb-cce2-404c-883c-733ac230f974
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_issn
+    - node.type.catalogos
+id: node.catalogos.field_issn
+field_name: field_issn
+entity_type: node
+bundle: catalogos
+label: 'Código de Publicação (ISSN)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 1f19e1a8-bf73-40ff-b454-a6207bc6fe4e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_orientador
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_orientador
+field_name: field_orientador
+entity_type: node
+bundle: producoes_visuais
+label: Orientador
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

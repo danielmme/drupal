@@ -1,0 +1,19 @@
+uuid: 9daea93a-6d38-40fb-bcd0-d9c0bdbbd96d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_do_periodico
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_titulo_do_periodico
+field_name: field_titulo_do_periodico
+entity_type: node
+bundle: producoes_visuais
+label: 'Título do periódico'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

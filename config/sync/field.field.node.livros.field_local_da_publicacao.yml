@@ -1,0 +1,19 @@
+uuid: 0d845168-d728-4ceb-8459-97bc96461868
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_local_da_publicacao
+    - node.type.livros
+id: node.livros.field_local_da_publicacao
+field_name: field_local_da_publicacao
+entity_type: node
+bundle: livros
+label: 'Local da Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

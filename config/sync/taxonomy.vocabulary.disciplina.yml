@@ -1,0 +1,8 @@
+uuid: f8475854-6fbb-4626-b044-7dea844bdeca
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Disciplina
+vid: disciplina
+description: ''
+weight: 0

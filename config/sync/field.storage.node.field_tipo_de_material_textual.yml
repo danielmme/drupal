@@ -1,0 +1,27 @@
+uuid: d034e048-76c8-479f-9118-24c6d52895a3
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tipo_de_material_textual
+field_name: field_tipo_de_material_textual
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: entrevista_jornalistica
+      label: 'Entrevista Jornalística'
+    -
+      value: texto_na_web
+      label: 'Texto na Web'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

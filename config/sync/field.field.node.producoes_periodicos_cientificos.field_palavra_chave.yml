@@ -1,0 +1,19 @@
+uuid: dfaa5c51-6033-4a61-b412-f816033fe72c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_palavra_chave
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_palavra_chave
+field_name: field_palavra_chave
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Palavras chave'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

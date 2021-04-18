@@ -1,0 +1,29 @@
+uuid: 27fff6e9-d701-45f0-83c0-f726a8350ee7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_areas_tematicas
+    - node.type.livros
+    - taxonomy.vocabulary.area_tematica
+id: node.livros.field_areas_tematicas
+field_name: field_areas_tematicas
+entity_type: node
+bundle: livros
+label: 'Área Temática'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      area_tematica: area_tematica
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

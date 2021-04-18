@@ -1,0 +1,19 @@
+uuid: c666db59-7d7d-4cda-9da8-0e7ba490fbf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edicao
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_edicao
+field_name: field_edicao
+entity_type: node
+bundle: producoes_visuais
+label: Edição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

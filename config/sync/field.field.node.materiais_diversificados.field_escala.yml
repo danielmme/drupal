@@ -1,0 +1,19 @@
+uuid: b7769040-8283-4213-b2d9-35be95f13f8c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_escala
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_escala
+field_name: field_escala
+entity_type: node
+bundle: materiais_diversificados
+label: Escala
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

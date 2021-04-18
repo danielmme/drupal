@@ -1,0 +1,10 @@
+uuid: 80d81622-db39-4032-adc2-371433276ef4
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XWhEB0wh2uZrN5btKVxQzH46OCEyEzgpGkFzL6AbLK4
+name: 'Font Foundry'
+vid: font_foundry
+description: 'Font Foundry'
+weight: 0

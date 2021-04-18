@@ -1,0 +1,19 @@
+uuid: 526fecca-c9c5-48e2-bf3b-17f3b8767f0c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descricao_adicional
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_descricao_adicional
+field_name: field_descricao_adicional
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Descrição Adicional'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

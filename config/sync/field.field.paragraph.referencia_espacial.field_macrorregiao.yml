@@ -1,0 +1,21 @@
+uuid: beb0f9c7-8998-45d6-bbd4-dcb6c1e4624c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_macrorregiao
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - options
+id: paragraph.referencia_espacial.field_macrorregiao
+field_name: field_macrorregiao
+entity_type: paragraph
+bundle: referencia_espacial
+label: Macrorregião
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

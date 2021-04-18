@@ -1,0 +1,19 @@
+uuid: ff6cb806-a245-4d54-ac85-32665d1e8c12
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_origem_do_resumo
+    - node.type.livros
+id: node.livros.field_origem_do_resumo
+field_name: field_origem_do_resumo
+entity_type: node
+bundle: livros
+label: 'Origem do Resumo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

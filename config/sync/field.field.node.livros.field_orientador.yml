@@ -1,0 +1,19 @@
+uuid: b944be25-8faa-43d9-85c9-66552cd8f659
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_orientador
+    - node.type.livros
+id: node.livros.field_orientador
+field_name: field_orientador
+entity_type: node
+bundle: livros
+label: Orientador
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

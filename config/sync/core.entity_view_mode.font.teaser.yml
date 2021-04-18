@@ -1,0 +1,12 @@
+uuid: affbef1f-9300-403d-b9a6-e41c7c60c6a3
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - fontyourface
+_core:
+  default_config_hash: rftvifM6gdARc-tJa62RoSKjTyAnHLlkK-7F-2sO0H8
+id: font.teaser
+label: 'Teaser Mode'
+targetEntityType: font
+cache: false

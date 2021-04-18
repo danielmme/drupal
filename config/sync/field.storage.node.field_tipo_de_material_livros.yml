@@ -1,0 +1,36 @@
+uuid: fd48dd06-f88a-4898-a271-ac43d8d497f4
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tipo_de_material_livros
+field_name: field_tipo_de_material_livros
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: livros
+      label: Livro
+    -
+      value: capitulo_livro
+      label: 'Capítulo de Livro'
+    -
+      value: livro_coletanea
+      label: 'Livro Coletânea'
+    -
+      value: livro_eletronico
+      label: 'Livro Eletrônico'
+    -
+      value: material_didatico
+      label: 'Material Didático'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

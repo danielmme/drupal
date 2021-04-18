@@ -1,0 +1,22 @@
+uuid: 40b357f9-b95d-4991-8e9b-59ceb96c2af1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - fflch
+_core:
+  default_config_hash: XIpgBE_KKvbMzk7H7Z82FIPsMuqGp4OgIE9BauDd3ME
+id: fflch_help
+theme: fflch
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

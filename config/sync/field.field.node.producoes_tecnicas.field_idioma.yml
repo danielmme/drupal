@@ -1,0 +1,21 @@
+uuid: 9c2de76a-420b-4f19-9551-3ab7e3a05d78
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idioma
+    - node.type.producoes_tecnicas
+  module:
+    - options
+id: node.producoes_tecnicas.field_idioma
+field_name: field_idioma
+entity_type: node
+bundle: producoes_tecnicas
+label: Idioma
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

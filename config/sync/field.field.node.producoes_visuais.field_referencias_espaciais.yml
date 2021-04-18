@@ -1,0 +1,31 @@
+uuid: 08d6898a-66c7-4cdb-933c-30d77a577887
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_referencias_espaciais
+    - node.type.producoes_visuais
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - entity_reference_revisions
+id: node.producoes_visuais.field_referencias_espaciais
+field_name: field_referencias_espaciais
+entity_type: node
+bundle: producoes_visuais
+label: 'Referência espacial'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      referencia_espacial: referencia_espacial
+    target_bundles_drag_drop:
+      referencia_espacial:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

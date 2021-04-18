@@ -1,0 +1,245 @@
+uuid: f0c4e90d-c352-4544-8edd-7c6b2e1d4a27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.materiais_diversificados.field_ano_publicacao
+    - field.field.node.materiais_diversificados.field_antigo_id
+    - field.field.node.materiais_diversificados.field_areas_tematicas
+    - field.field.node.materiais_diversificados.field_autor
+    - field.field.node.materiais_diversificados.field_autor_do_resumo
+    - field.field.node.materiais_diversificados.field_autor_organizador
+    - field.field.node.materiais_diversificados.field_autor_principal
+    - field.field.node.materiais_diversificados.field_autor_secundario
+    - field.field.node.materiais_diversificados.field_descricao_adicional
+    - field.field.node.materiais_diversificados.field_disciplinas
+    - field.field.node.materiais_diversificados.field_doi
+    - field.field.node.materiais_diversificados.field_edicao
+    - field.field.node.materiais_diversificados.field_escala
+    - field.field.node.materiais_diversificados.field_fonte
+    - field.field.node.materiais_diversificados.field_fonte_serie
+    - field.field.node.materiais_diversificados.field_idioma
+    - field.field.node.materiais_diversificados.field_instituicao
+    - field.field.node.materiais_diversificados.field_issn
+    - field.field.node.materiais_diversificados.field_local_da_publicacao
+    - field.field.node.materiais_diversificados.field_localizacao_eletronica
+    - field.field.node.materiais_diversificados.field_metodos_pesquisa
+    - field.field.node.materiais_diversificados.field_orientador
+    - field.field.node.materiais_diversificados.field_origem_do_resumo
+    - field.field.node.materiais_diversificados.field_pagina_final
+    - field.field.node.materiais_diversificados.field_pagina_inicial
+    - field.field.node.materiais_diversificados.field_palavra_chave
+    - field.field.node.materiais_diversificados.field_referencia_temporal
+    - field.field.node.materiais_diversificados.field_referencias_espaciais
+    - field.field.node.materiais_diversificados.field_resumo
+    - field.field.node.materiais_diversificados.field_serie
+    - field.field.node.materiais_diversificados.field_tipo_de_material_textual
+    - field.field.node.materiais_diversificados.field_titulo_do_periodico
+    - field.field.node.materiais_diversificados.field_volume
+    - node.type.materiais_diversificados
+  module:
+    - entity_reference_revisions
+    - user
+id: node.materiais_diversificados.default
+targetEntityType: node
+bundle: materiais_diversificados
+mode: default
+content:
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_antigo_id:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_areas_tematicas:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_autor:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_autor_do_resumo:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_autor_organizador:
+    weight: 112
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_disciplinas:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_doi:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_edicao:
+    weight: 113
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_escala:
+    weight: 115
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_fonte_serie:
+    weight: 116
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_instituicao:
+    weight: 117
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_issn:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_orientador:
+    weight: 118
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_origem_do_resumo:
+    weight: 119
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_pagina_final:
+    weight: 107
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_pagina_inicial:
+    weight: 108
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_palavra_chave:
+    weight: 114
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_referencias_espaciais:
+    weight: 105
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_serie:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_titulo_do_periodico:
+    weight: 120
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_volume:
+    weight: 121
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_ano_publicacao: true
+  field_autor_principal: true
+  field_autor_secundario: true
+  field_descricao_adicional: true
+  field_fonte: true
+  field_idioma: true
+  field_local_da_publicacao: true
+  field_localizacao_eletronica: true
+  field_metodos_pesquisa: true
+  field_referencia_temporal: true
+  field_resumo: true
+  field_tipo_de_material_textual: true
+  langcode: true

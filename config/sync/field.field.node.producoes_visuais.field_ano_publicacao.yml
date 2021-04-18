@@ -1,0 +1,23 @@
+uuid: ea034447-8e78-43c4-907f-399bdf796a2f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano_publicacao
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_ano_publicacao
+field_name: field_ano_publicacao
+entity_type: node
+bundle: producoes_visuais
+label: 'Ano de Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

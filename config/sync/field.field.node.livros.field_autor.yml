@@ -1,0 +1,19 @@
+uuid: f6d613c7-448f-48ff-a5be-a48e6c1a99e6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.livros
+id: node.livros.field_autor
+field_name: field_autor
+entity_type: node
+bundle: livros
+label: 'Autor (Cadastrante)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

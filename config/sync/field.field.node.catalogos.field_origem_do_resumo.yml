@@ -1,0 +1,19 @@
+uuid: 711869a3-07a7-41d8-a663-79adc9baeba0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_origem_do_resumo
+    - node.type.catalogos
+id: node.catalogos.field_origem_do_resumo
+field_name: field_origem_do_resumo
+entity_type: node
+bundle: catalogos
+label: 'Origem do Resumo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 9fa12403-1df8-4b6f-8c96-2403562e688b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_principal
+    - node.type.catalogos
+id: node.catalogos.field_autor_principal
+field_name: field_autor_principal
+entity_type: node
+bundle: catalogos
+label: 'Autor Principal'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 172c2ac4-b4b0-482c-968f-b28ae7880548
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_material_visual
+    - node.type.producoes_visuais
+  module:
+    - options
+id: node.producoes_visuais.field_tipo_de_material_visual
+field_name: field_tipo_de_material_visual
+entity_type: node
+bundle: producoes_visuais
+label: 'Tipo de material'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

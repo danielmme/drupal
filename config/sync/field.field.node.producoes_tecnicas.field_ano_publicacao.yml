@@ -1,0 +1,23 @@
+uuid: 685cc6de-52d9-404a-9594-c210949e6383
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano_publicacao
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_ano_publicacao
+field_name: field_ano_publicacao
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Ano de Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

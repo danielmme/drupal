@@ -1,0 +1,19 @@
+uuid: c2552601-71ea-49c2-b7d7-b61b8eeac01c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_antigo_id
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_antigo_id
+field_name: field_antigo_id
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Antigo ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,231 @@
+uuid: c3f74c31-6fbf-499f-a7f7-047bbd9acf28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.trabalhos_de_conclusao.field_ano_publicacao
+    - field.field.node.trabalhos_de_conclusao.field_antigo_id
+    - field.field.node.trabalhos_de_conclusao.field_areas_tematicas
+    - field.field.node.trabalhos_de_conclusao.field_autor
+    - field.field.node.trabalhos_de_conclusao.field_autor_do_resumo
+    - field.field.node.trabalhos_de_conclusao.field_autor_organizador
+    - field.field.node.trabalhos_de_conclusao.field_autor_principal
+    - field.field.node.trabalhos_de_conclusao.field_autor_secundario
+    - field.field.node.trabalhos_de_conclusao.field_descricao_adicional
+    - field.field.node.trabalhos_de_conclusao.field_disciplinas
+    - field.field.node.trabalhos_de_conclusao.field_doi
+    - field.field.node.trabalhos_de_conclusao.field_edicao
+    - field.field.node.trabalhos_de_conclusao.field_escala
+    - field.field.node.trabalhos_de_conclusao.field_fonte
+    - field.field.node.trabalhos_de_conclusao.field_fonte_serie
+    - field.field.node.trabalhos_de_conclusao.field_idioma
+    - field.field.node.trabalhos_de_conclusao.field_instituicao
+    - field.field.node.trabalhos_de_conclusao.field_issn
+    - field.field.node.trabalhos_de_conclusao.field_local_da_publicacao
+    - field.field.node.trabalhos_de_conclusao.field_localizacao_eletronica
+    - field.field.node.trabalhos_de_conclusao.field_metodos_pesquisa
+    - field.field.node.trabalhos_de_conclusao.field_orientador
+    - field.field.node.trabalhos_de_conclusao.field_origem_do_resumo
+    - field.field.node.trabalhos_de_conclusao.field_pagina_final
+    - field.field.node.trabalhos_de_conclusao.field_pagina_inicial
+    - field.field.node.trabalhos_de_conclusao.field_palavra_chave
+    - field.field.node.trabalhos_de_conclusao.field_referencia_temporal
+    - field.field.node.trabalhos_de_conclusao.field_referencias_espaciais
+    - field.field.node.trabalhos_de_conclusao.field_resumo
+    - field.field.node.trabalhos_de_conclusao.field_serie
+    - field.field.node.trabalhos_de_conclusao.field_tipo_de_material_conclusao
+    - field.field.node.trabalhos_de_conclusao.field_titulo_do_periodico
+    - field.field.node.trabalhos_de_conclusao.field_volume
+    - node.type.trabalhos_de_conclusao
+  module:
+    - entity_reference_revisions
+    - user
+id: node.trabalhos_de_conclusao.default
+targetEntityType: node
+bundle: trabalhos_de_conclusao
+mode: default
+content:
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_antigo_id:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_areas_tematicas:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_autor:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_autor_do_resumo:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_autor_organizador:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_autor_secundario:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_disciplinas:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_escala:
+    weight: 112
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_fonte:
+    weight: 113
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_fonte_serie:
+    weight: 114
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_instituicao:
+    weight: 115
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_origem_do_resumo:
+    weight: 116
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_pagina_final:
+    weight: 101
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_pagina_inicial:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_palavra_chave:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_referencias_espaciais:
+    weight: 105
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_serie:
+    weight: 117
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_titulo_do_periodico:
+    weight: 118
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_volume:
+    weight: 119
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_ano_publicacao: true
+  field_autor_principal: true
+  field_descricao_adicional: true
+  field_doi: true
+  field_edicao: true
+  field_idioma: true
+  field_issn: true
+  field_local_da_publicacao: true
+  field_localizacao_eletronica: true
+  field_metodos_pesquisa: true
+  field_orientador: true
+  field_referencia_temporal: true
+  field_resumo: true
+  field_tipo_de_material_conclusao: true
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: 460bb174-ab83-479a-97df-b08afb6c3f60
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fflch
+_core:
+  default_config_hash: UFnTA1mVOK3IZ4yMB591WJFg2qhVZJBnp60nfK1cCKY
+id: fflch_content
+theme: fflch
+region: content_top
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  provider: system
+  label_display: '0'
+visibility: {  }

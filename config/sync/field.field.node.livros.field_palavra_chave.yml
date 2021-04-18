@@ -1,0 +1,19 @@
+uuid: 5eb5d9f9-40d4-4b23-b6ce-d1c645e51cc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_palavra_chave
+    - node.type.livros
+id: node.livros.field_palavra_chave
+field_name: field_palavra_chave
+entity_type: node
+bundle: livros
+label: 'Palavras chave'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

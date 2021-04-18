@@ -1,0 +1,21 @@
+uuid: 14e3b48f-4c4b-4685-b7eb-9cfeba669a91
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idioma
+    - node.type.materiais_diversificados
+  module:
+    - options
+id: node.materiais_diversificados.field_idioma
+field_name: field_idioma
+entity_type: node
+bundle: materiais_diversificados
+label: Idioma
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

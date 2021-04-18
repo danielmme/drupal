@@ -1,0 +1,27 @@
+uuid: 3999f9de-230d-44d5-9e47-790e5a49bf23
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 03WdYqZ9m4ZWusTCgaLVa4EXTpy83dTIlkCDxy4Hi80
+id: anonymous
+label: 'Usuário anônimo'
+weight: -10
+is_admin: false
+permissions:
+  - ''
+  - 'access content'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'change own username'
+  - 'create catalogos content'
+  - 'create livros content'
+  - 'create materiais_diversificados content'
+  - 'create producoes_periodicos_cientificos content'
+  - 'create producoes_tecnicas content'
+  - 'create producoes_visuais content'
+  - 'create trabalhos_de_conclusao content'
+  - 'search content'
+  - 'use editor transition create_new_draft'
+  - 'view the administration theme'

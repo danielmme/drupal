@@ -1,0 +1,19 @@
+uuid: 65f8cce6-f775-4d57-b4ff-50e95a0b79f4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fonte
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_fonte
+field_name: field_fonte
+entity_type: node
+bundle: producoes_visuais
+label: 'Material de origem'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

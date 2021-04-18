@@ -1,0 +1,21 @@
+uuid: c8a810f0-ec73-43e6-a538-574d42dad517
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_material_tecnicas
+    - node.type.producoes_tecnicas
+  module:
+    - options
+id: node.producoes_tecnicas.field_tipo_de_material_tecnicas
+field_name: field_tipo_de_material_tecnicas
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Tipo de material'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

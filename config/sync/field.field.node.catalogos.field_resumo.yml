@@ -1,0 +1,21 @@
+uuid: 5add6fb0-6f97-4924-a2c4-1202e55c720f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumo
+    - node.type.catalogos
+  module:
+    - text
+id: node.catalogos.field_resumo
+field_name: field_resumo
+entity_type: node
+bundle: catalogos
+label: Resumo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,21 @@
+uuid: 11067123-4b9f-4998-8f0f-90cbd593428c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_material_catalogos
+    - node.type.catalogos
+  module:
+    - options
+id: node.catalogos.field_tipo_de_material_catalogos
+field_name: field_tipo_de_material_catalogos
+entity_type: node
+bundle: catalogos
+label: 'Tipo de material'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

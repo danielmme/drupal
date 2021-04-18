@@ -1,0 +1,23 @@
+uuid: aaf73e92-525e-41aa-badc-e19bfd1cfa6a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ref_nao_identificada
+    - paragraphs.paragraphs_type.referencia_espacial
+id: paragraph.referencia_espacial.field_ref_nao_identificada
+field_name: field_ref_nao_identificada
+entity_type: paragraph
+bundle: referencia_espacial
+label: 'Referência espacial não identificada'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

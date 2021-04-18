@@ -1,0 +1,22 @@
+uuid: b750bae6-07f4-46de-9dd9-3a4ffb6b18fd
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fflch
+_core:
+  default_config_hash: YhIdku5RK1yLsD3-zp98ZwGbaRyeiknyxMEREnXYmyc
+id: fflch_messages
+theme: fflch
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  provider: system
+  label_display: '0'
+visibility: {  }

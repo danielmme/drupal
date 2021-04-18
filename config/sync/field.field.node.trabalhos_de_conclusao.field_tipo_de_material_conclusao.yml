@@ -1,0 +1,21 @@
+uuid: 7ca5d74a-35be-4bf1-9cbc-3dafbfb908cf
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_material_conclusao
+    - node.type.trabalhos_de_conclusao
+  module:
+    - options
+id: node.trabalhos_de_conclusao.field_tipo_de_material_conclusao
+field_name: field_tipo_de_material_conclusao
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Tipo de material'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

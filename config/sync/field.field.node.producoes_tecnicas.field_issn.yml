@@ -1,0 +1,19 @@
+uuid: 177bd4eb-fef9-4f3e-8d6e-3621f904a35c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_issn
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_issn
+field_name: field_issn
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Código de Publicação (ISSN)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

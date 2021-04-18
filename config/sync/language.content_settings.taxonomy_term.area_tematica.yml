@@ -1,0 +1,11 @@
+uuid: 6225bccf-991c-4b49-a548-b4829c44e40c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.area_tematica
+id: taxonomy_term.area_tematica
+target_entity_type_id: taxonomy_term
+target_bundle: area_tematica
+default_langcode: site_default
+language_alterable: false

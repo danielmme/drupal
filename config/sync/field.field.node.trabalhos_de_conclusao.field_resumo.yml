@@ -1,0 +1,21 @@
+uuid: 0e5bb362-893c-493c-9d6e-53b0eac468f6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumo
+    - node.type.trabalhos_de_conclusao
+  module:
+    - text
+id: node.trabalhos_de_conclusao.field_resumo
+field_name: field_resumo
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: Resumo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

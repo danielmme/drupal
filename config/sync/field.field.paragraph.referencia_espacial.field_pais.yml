@@ -1,0 +1,21 @@
+uuid: e0b650f0-da63-468a-afcf-b1e847c9cce0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pais
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - options
+id: paragraph.referencia_espacial.field_pais
+field_name: field_pais
+entity_type: paragraph
+bundle: referencia_espacial
+label: 'País estrangeiro'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

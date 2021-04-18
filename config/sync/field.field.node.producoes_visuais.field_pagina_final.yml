@@ -1,0 +1,23 @@
+uuid: 791d1da8-f6cd-4cd1-8b19-9cf437f37e74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_final
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_pagina_final
+field_name: field_pagina_final
+entity_type: node
+bundle: producoes_visuais
+label: 'Página final'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

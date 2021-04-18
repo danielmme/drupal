@@ -1,0 +1,23 @@
+uuid: b44f5098-834f-48d8-b1dd-c2d200ee63f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_final
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_pagina_final
+field_name: field_pagina_final
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Página final'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

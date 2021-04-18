@@ -1,0 +1,23 @@
+uuid: 898a8314-bcf3-448a-9601-59dbae790e21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_final
+    - node.type.trabalhos_de_conclusao
+id: node.trabalhos_de_conclusao.field_pagina_final
+field_name: field_pagina_final
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Página final'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: 384b07f2-701b-42db-9828-5e47b101a666
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disciplinas
+    - node.type.catalogos
+    - taxonomy.vocabulary.disciplina
+id: node.catalogos.field_disciplinas
+field_name: field_disciplinas
+entity_type: node
+bundle: catalogos
+label: Disciplina
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      disciplina: disciplina
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

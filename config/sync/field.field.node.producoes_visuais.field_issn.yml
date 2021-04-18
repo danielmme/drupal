@@ -1,0 +1,19 @@
+uuid: 236307ca-0693-4571-91ba-8911b6838004
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_issn
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_issn
+field_name: field_issn
+entity_type: node
+bundle: producoes_visuais
+label: 'Código de Publicação (ISSN)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

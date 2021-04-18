@@ -1,0 +1,11 @@
+uuid: 28033e36-5b89-498f-96e8-d25bb5fbdf20
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas
+target_entity_type_id: node
+target_bundle: producoes_tecnicas
+default_langcode: site_default
+language_alterable: false

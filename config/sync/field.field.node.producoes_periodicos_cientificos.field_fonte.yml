@@ -1,0 +1,19 @@
+uuid: 7c2053b3-9172-4ed0-9c3d-2142173588bd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fonte
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_fonte
+field_name: field_fonte
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Material de origem'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

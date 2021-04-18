@@ -1,0 +1,27 @@
+uuid: 5ca5a6d0-12af-4a3a-8772-0bc0d622fcb8
+langcode: pt-br
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - fflch
+_core:
+  default_config_hash: fgjCDk5fpp-yZ_aYmnSHQvC4992KOUcwRB4aF-UuPBk
+id: fflch_footer
+theme: fflch
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Menu do rodapé'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

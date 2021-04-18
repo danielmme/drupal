@@ -1,0 +1,10 @@
+uuid: c84e4d0e-0795-4e0b-8239-3d429724ba92
+langcode: en
+status: true
+dependencies: {  }
+id: referencia_espacial
+label: 'Referência espacial'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,19 @@
+uuid: 31429c73-6706-4967-aca3-761dc805037d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edicao
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_edicao
+field_name: field_edicao
+entity_type: node
+bundle: producoes_tecnicas
+label: Edição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

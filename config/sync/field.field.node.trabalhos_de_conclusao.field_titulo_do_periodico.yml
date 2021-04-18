@@ -1,0 +1,19 @@
+uuid: 33b61102-8624-482c-8efe-cfa877e40d54
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_do_periodico
+    - node.type.trabalhos_de_conclusao
+id: node.trabalhos_de_conclusao.field_titulo_do_periodico
+field_name: field_titulo_do_periodico
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Título do periódico'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

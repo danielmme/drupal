@@ -1,0 +1,21 @@
+uuid: 9dd76f5d-ef48-471a-929b-b9b79612baff
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_uf
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - options
+id: paragraph.referencia_espacial.field_uf
+field_name: field_uf
+entity_type: paragraph
+bundle: referencia_espacial
+label: UF
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 935f1f19-5290-4f69-b9e6-a424961493b3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_material_textual
+    - node.type.materiais_diversificados
+  module:
+    - options
+id: node.materiais_diversificados.field_tipo_de_material_textual
+field_name: field_tipo_de_material_textual
+entity_type: node
+bundle: materiais_diversificados
+label: 'Tipo de material'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

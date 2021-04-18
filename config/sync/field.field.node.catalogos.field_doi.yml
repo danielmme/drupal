@@ -1,0 +1,19 @@
+uuid: 606d5b0a-c47f-4019-a40b-a14886158d2b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doi
+    - node.type.catalogos
+id: node.catalogos.field_doi
+field_name: field_doi
+entity_type: node
+bundle: catalogos
+label: 'Código de Publicação (DOI)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

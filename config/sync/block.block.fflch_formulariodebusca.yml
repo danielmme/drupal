@@ -1,0 +1,23 @@
+uuid: 35baf216-5d56-4da4-a0b4-ce499edf0a12
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - fflch
+_core:
+  default_config_hash: FER62LGVDfEzoxoVOSr9YGD3fAD2mF10IU9pRjBTJEg
+id: fflch_formulariodebusca
+theme: fflch
+region: header_right
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulário de busca'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

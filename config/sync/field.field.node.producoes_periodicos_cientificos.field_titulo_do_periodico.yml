@@ -1,0 +1,19 @@
+uuid: 4faca7b6-55f0-49ac-8bb0-b96af0b2f333
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_do_periodico
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_titulo_do_periodico
+field_name: field_titulo_do_periodico
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Título do periódico'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

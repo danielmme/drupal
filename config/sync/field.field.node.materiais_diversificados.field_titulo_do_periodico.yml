@@ -1,0 +1,19 @@
+uuid: 4e4eb614-31c8-4c5c-946a-f022bb96e492
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_do_periodico
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_titulo_do_periodico
+field_name: field_titulo_do_periodico
+entity_type: node
+bundle: materiais_diversificados
+label: 'Título do periódico'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 6b8c04bd-2c94-4de1-8be3-ae47418a1a59
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instituicao
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_instituicao
+field_name: field_instituicao
+entity_type: node
+bundle: producoes_visuais
+label: Instituição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

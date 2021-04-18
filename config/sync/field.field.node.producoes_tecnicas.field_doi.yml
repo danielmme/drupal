@@ -1,0 +1,19 @@
+uuid: ec38b9f7-719c-4316-8a24-adf8ef653d22
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doi
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_doi
+field_name: field_doi
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Código de Publicação (DOI)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

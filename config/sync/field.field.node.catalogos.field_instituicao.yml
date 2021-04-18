@@ -1,0 +1,19 @@
+uuid: fef4b5df-fc0d-4849-aa7c-a15493290522
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instituicao
+    - node.type.catalogos
+id: node.catalogos.field_instituicao
+field_name: field_instituicao
+entity_type: node
+bundle: catalogos
+label: Instituição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

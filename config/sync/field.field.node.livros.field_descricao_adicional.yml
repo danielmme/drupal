@@ -1,0 +1,19 @@
+uuid: 2436bb8e-0c77-4949-ade3-f3f74968f1e9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descricao_adicional
+    - node.type.livros
+id: node.livros.field_descricao_adicional
+field_name: field_descricao_adicional
+entity_type: node
+bundle: livros
+label: 'Descrição Adicional'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

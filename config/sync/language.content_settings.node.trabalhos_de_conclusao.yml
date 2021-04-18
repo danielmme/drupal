@@ -1,0 +1,11 @@
+uuid: a0c37345-3590-4df4-808b-1ed74832f035
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.trabalhos_de_conclusao
+id: node.trabalhos_de_conclusao
+target_entity_type_id: node
+target_bundle: trabalhos_de_conclusao
+default_langcode: site_default
+language_alterable: false

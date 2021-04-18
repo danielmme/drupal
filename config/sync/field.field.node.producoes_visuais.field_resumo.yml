@@ -1,0 +1,21 @@
+uuid: b190e810-f908-4092-a35d-fe24bca53c40
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumo
+    - node.type.producoes_visuais
+  module:
+    - text
+id: node.producoes_visuais.field_resumo
+field_name: field_resumo
+entity_type: node
+bundle: producoes_visuais
+label: Resumo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

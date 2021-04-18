@@ -1,0 +1,19 @@
+uuid: 2dc28f29-28cb-4944-b15f-ba46cdcf917a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_organizador
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_autor_organizador
+field_name: field_autor_organizador
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Autor Organizador'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

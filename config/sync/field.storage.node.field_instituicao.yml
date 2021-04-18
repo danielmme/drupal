@@ -1,0 +1,21 @@
+uuid: 551203d8-6f53-4061-a961-7183aa2ec4c7
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_instituicao
+field_name: field_instituicao
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: e76f547f-c9f3-4deb-8e7c-86e491485e66
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_inicial
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_pagina_inicial
+field_name: field_pagina_inicial
+entity_type: node
+bundle: materiais_diversificados
+label: 'Página Inicial'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

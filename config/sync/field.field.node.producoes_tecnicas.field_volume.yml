@@ -1,0 +1,19 @@
+uuid: 41e00488-e185-472e-9f09-775920bdce69
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volume
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_volume
+field_name: field_volume
+entity_type: node
+bundle: producoes_tecnicas
+label: Volume
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

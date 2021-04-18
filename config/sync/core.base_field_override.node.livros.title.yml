@@ -1,0 +1,18 @@
+uuid: 9622a4ef-79cc-4cdf-b51a-753b005ff4ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.livros
+id: node.livros.title
+field_name: title
+entity_type: node
+bundle: livros
+label: 'Título da Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

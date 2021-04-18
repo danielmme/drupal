@@ -1,0 +1,21 @@
+uuid: eefb02d0-21e4-4b34-9ccb-fb44adda9297
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metodos_pesquisa
+    - node.type.producoes_visuais
+  module:
+    - options
+id: node.producoes_visuais.field_metodos_pesquisa
+field_name: field_metodos_pesquisa
+entity_type: node
+bundle: producoes_visuais
+label: 'Método e Técnica de Pesquisa'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

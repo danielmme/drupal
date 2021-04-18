@@ -1,0 +1,20 @@
+uuid: ef9563de-392d-4d2c-a73c-e0135387edfd
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - fflch
+_core:
+  default_config_hash: ZPE8RqDyMoC2z7vda1emBikQlWrnD07ZaXlYqnh2myA
+id: fflch_local_actions
+theme: fflch
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

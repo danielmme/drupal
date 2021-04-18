@@ -1,0 +1,31 @@
+uuid: 3be8ce73-59e3-4ad0-a692-587387562277
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_referencias_espaciais
+    - node.type.trabalhos_de_conclusao
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - entity_reference_revisions
+id: node.trabalhos_de_conclusao.field_referencias_espaciais
+field_name: field_referencias_espaciais
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Referência espacial'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      referencia_espacial: referencia_espacial
+    target_bundles_drag_drop:
+      referencia_espacial:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

@@ -1,0 +1,19 @@
+uuid: da648cbe-bc9f-4ebc-9f62-b6d80900fd30
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_do_resumo
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_autor_do_resumo
+field_name: field_autor_do_resumo
+entity_type: node
+bundle: producoes_visuais
+label: 'Autor do Resumo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

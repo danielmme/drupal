@@ -1,0 +1,21 @@
+uuid: 6ef0940e-b7b6-4ab5-adaf-73517956aaef
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_autor_do_resumo
+field_name: field_autor_do_resumo
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

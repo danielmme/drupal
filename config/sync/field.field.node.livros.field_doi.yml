@@ -1,0 +1,19 @@
+uuid: 7a8f30fd-8272-410a-bc8f-ef76364f96ea
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doi
+    - node.type.livros
+id: node.livros.field_doi
+field_name: field_doi
+entity_type: node
+bundle: livros
+label: 'Código de Publicação (DOI)'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

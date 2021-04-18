@@ -1,0 +1,22 @@
+uuid: e1165f53-be08-4383-87ca-672a6d243a2f
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - fflch
+_core:
+  default_config_hash: L0uY-ZNab9CVpzcsa5_yCmMgB_Ab2_eNBdiPJXxklfg
+id: fflch_local_tasks
+theme: fflch
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Abas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

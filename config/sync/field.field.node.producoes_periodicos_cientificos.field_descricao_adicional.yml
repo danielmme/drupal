@@ -1,0 +1,19 @@
+uuid: 9a3ecc7a-fb41-46af-82a1-b75369e3d229
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descricao_adicional
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.field_descricao_adicional
+field_name: field_descricao_adicional
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Descrição Adicional'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

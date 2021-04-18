@@ -1,0 +1,21 @@
+uuid: b3e51782-fe98-494a-b89d-e738607393f2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumo
+    - node.type.materiais_diversificados
+  module:
+    - text
+id: node.materiais_diversificados.field_resumo
+field_name: field_resumo
+entity_type: node
+bundle: materiais_diversificados
+label: Resumo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

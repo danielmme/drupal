@@ -1,0 +1,135 @@
+uuid: 35191fb7-c1e4-4a4a-931b-870481ce6c50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.referencia_espacial.field_bairro
+    - field.field.paragraph.referencia_espacial.field_brasil
+    - field.field.paragraph.referencia_espacial.field_cidade
+    - field.field.paragraph.referencia_espacial.field_especificacao_da_ref_espac
+    - field.field.paragraph.referencia_espacial.field_localidade
+    - field.field.paragraph.referencia_espacial.field_logradouro
+    - field.field.paragraph.referencia_espacial.field_macrorregiao
+    - field.field.paragraph.referencia_espacial.field_mesorregiao
+    - field.field.paragraph.referencia_espacial.field_outros
+    - field.field.paragraph.referencia_espacial.field_pais
+    - field.field.paragraph.referencia_espacial.field_ref_nao_identificada
+    - field.field.paragraph.referencia_espacial.field_uf
+    - field.field.paragraph.referencia_espacial.field_zona
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - options
+id: paragraph.referencia_espacial.default
+targetEntityType: paragraph
+bundle: referencia_espacial
+mode: default
+content:
+  field_bairro:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_brasil:
+    weight: 11
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_cidade:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_especificacao_da_ref_espac:
+    weight: 16
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_localidade:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_logradouro:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_macrorregiao:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_mesorregiao:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_outros:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_pais:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_ref_nao_identificada:
+    weight: 15
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_uf:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_zona:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true

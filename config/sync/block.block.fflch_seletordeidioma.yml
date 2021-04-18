@@ -1,0 +1,22 @@
+uuid: ed8c9d0e-b746-415e-9da2-0f9d067183f3
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - fflch
+_core:
+  default_config_hash: 9VdIv9naQZt9b7qtaTIewdFRb6TLTJaficoBsmhG-wg
+id: fflch_seletordeidioma
+theme: fflch
+region: header
+weight: -2
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Seletor de idioma'
+  provider: language
+  label_display: '0'
+visibility: {  }

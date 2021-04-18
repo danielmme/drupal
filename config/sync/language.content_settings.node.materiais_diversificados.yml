@@ -1,0 +1,11 @@
+uuid: 8f02fbde-1e5a-4ac4-b8d5-2d847f550ebe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados
+target_entity_type_id: node
+target_bundle: materiais_diversificados
+default_langcode: site_default
+language_alterable: false

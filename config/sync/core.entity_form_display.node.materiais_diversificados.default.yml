@@ -1,0 +1,402 @@
+uuid: e343eaa9-3e14-4426-a2a9-99588d7ea746
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.materiais_diversificados.field_ano_publicacao
+    - field.field.node.materiais_diversificados.field_antigo_id
+    - field.field.node.materiais_diversificados.field_areas_tematicas
+    - field.field.node.materiais_diversificados.field_autor
+    - field.field.node.materiais_diversificados.field_autor_do_resumo
+    - field.field.node.materiais_diversificados.field_autor_organizador
+    - field.field.node.materiais_diversificados.field_autor_principal
+    - field.field.node.materiais_diversificados.field_autor_secundario
+    - field.field.node.materiais_diversificados.field_descricao_adicional
+    - field.field.node.materiais_diversificados.field_disciplinas
+    - field.field.node.materiais_diversificados.field_doi
+    - field.field.node.materiais_diversificados.field_edicao
+    - field.field.node.materiais_diversificados.field_escala
+    - field.field.node.materiais_diversificados.field_fonte
+    - field.field.node.materiais_diversificados.field_fonte_serie
+    - field.field.node.materiais_diversificados.field_idioma
+    - field.field.node.materiais_diversificados.field_instituicao
+    - field.field.node.materiais_diversificados.field_issn
+    - field.field.node.materiais_diversificados.field_local_da_publicacao
+    - field.field.node.materiais_diversificados.field_localizacao_eletronica
+    - field.field.node.materiais_diversificados.field_metodos_pesquisa
+    - field.field.node.materiais_diversificados.field_orientador
+    - field.field.node.materiais_diversificados.field_origem_do_resumo
+    - field.field.node.materiais_diversificados.field_pagina_final
+    - field.field.node.materiais_diversificados.field_pagina_inicial
+    - field.field.node.materiais_diversificados.field_palavra_chave
+    - field.field.node.materiais_diversificados.field_referencia_temporal
+    - field.field.node.materiais_diversificados.field_referencias_espaciais
+    - field.field.node.materiais_diversificados.field_resumo
+    - field.field.node.materiais_diversificados.field_serie
+    - field.field.node.materiais_diversificados.field_tipo_de_material_textual
+    - field.field.node.materiais_diversificados.field_titulo_do_periodico
+    - field.field.node.materiais_diversificados.field_volume
+    - node.type.materiais_diversificados
+    - workflows.workflow.editor
+  module:
+    - content_moderation
+    - paragraphs
+    - path
+    - scheduler
+    - text
+id: node.materiais_diversificados.default
+targetEntityType: node
+bundle: materiais_diversificados
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 21
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ano_publicacao:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_antigo_id:
+    weight: 104
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_areas_tematicas:
+    weight: 101
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_autor:
+    weight: 105
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_autor_do_resumo:
+    weight: 106
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_autor_organizador:
+    weight: 107
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_autor_principal:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_autor_secundario:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_descricao_adicional:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_disciplinas:
+    weight: 13
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_doi:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_edicao:
+    weight: 108
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_escala:
+    weight: 110
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_fonte:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_fonte_serie:
+    weight: 111
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_idioma:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_instituicao:
+    weight: 112
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_issn:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_local_da_publicacao:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_localizacao_eletronica:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_metodos_pesquisa:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_orientador:
+    weight: 113
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_origem_do_resumo:
+    weight: 114
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pagina_final:
+    weight: 102
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_pagina_inicial:
+    weight: 103
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_palavra_chave:
+    weight: 109
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_referencia_temporal:
+    weight: 18
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_referencias_espaciais:
+    weight: 16
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+    type: paragraphs
+    region: content
+  field_resumo:
+    weight: 12
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_serie:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_tipo_de_material_textual:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_titulo_do_periodico:
+    weight: 115
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_volume:
+    weight: 116
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 28
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 25
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 22
+    region: content
+    third_party_settings: {  }
+  publish_on:
+    type: datetime_timestamp_no_default
+    weight: 26
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 27
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 23
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 20
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  unpublish_on:
+    type: datetime_timestamp_no_default
+    weight: 24
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  url_redirects:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

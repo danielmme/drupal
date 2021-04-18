@@ -1,0 +1,39 @@
+uuid: e0c79b94-3723-4a2d-97e1-09bf379d959f
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_idioma
+field_name: field_idioma
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: portugues
+      label: Português
+    -
+      value: ingles
+      label: Inglês
+    -
+      value: espanhol
+      label: Espanhol
+    -
+      value: frances
+      label: Francês
+    -
+      value: italiano
+      label: Italiano
+    -
+      value: alemao
+      label: Alemão
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

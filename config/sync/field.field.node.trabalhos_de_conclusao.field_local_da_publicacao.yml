@@ -1,0 +1,19 @@
+uuid: 3c4864f5-b578-47f1-9b64-7eda77fdb511
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_local_da_publicacao
+    - node.type.trabalhos_de_conclusao
+id: node.trabalhos_de_conclusao.field_local_da_publicacao
+field_name: field_local_da_publicacao
+entity_type: node
+bundle: trabalhos_de_conclusao
+label: 'Local da Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

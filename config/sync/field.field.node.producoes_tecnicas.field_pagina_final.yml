@@ -1,0 +1,23 @@
+uuid: ef96ebcc-bf7d-458c-bed2-173c33004f49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagina_final
+    - node.type.producoes_tecnicas
+id: node.producoes_tecnicas.field_pagina_final
+field_name: field_pagina_final
+entity_type: node
+bundle: producoes_tecnicas
+label: 'Página final'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

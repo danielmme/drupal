@@ -1,0 +1,19 @@
+uuid: ed76e1e9-fb31-4522-8e82-2ccaef9f377c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doi
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_doi
+field_name: field_doi
+entity_type: node
+bundle: materiais_diversificados
+label: 'Código de Publicação (DOI)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

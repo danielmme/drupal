@@ -1,0 +1,18 @@
+uuid: 859dbb98-a9b2-459a-8394-6ffa0f03011d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos.title
+field_name: title
+entity_type: node
+bundle: producoes_periodicos_cientificos
+label: 'Título da Publicação'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

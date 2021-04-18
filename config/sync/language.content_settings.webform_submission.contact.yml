@@ -1,0 +1,13 @@
+uuid: 780d886a-fccf-453e-9c78-f19cf3e0ceb8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+_core:
+  default_config_hash: zDkLMDx6i8J-NqN3XqeJODond6P1miPoiYKIjEl9urs
+id: webform_submission.contact
+target_entity_type_id: webform_submission
+target_bundle: contact
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: 3670c2c7-258f-4cdd-b8b6-7d3e29030afd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.producoes_visuais
+id: node.producoes_visuais
+target_entity_type_id: node
+target_bundle: producoes_visuais
+default_langcode: site_default
+language_alterable: false

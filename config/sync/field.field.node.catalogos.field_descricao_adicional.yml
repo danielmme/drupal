@@ -1,0 +1,19 @@
+uuid: b44b5500-5153-4193-ae84-e3b7502fedc2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descricao_adicional
+    - node.type.catalogos
+id: node.catalogos.field_descricao_adicional
+field_name: field_descricao_adicional
+entity_type: node
+bundle: catalogos
+label: 'Descrição Adicional'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

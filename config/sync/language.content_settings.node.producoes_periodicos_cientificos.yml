@@ -1,0 +1,11 @@
+uuid: 3f7fcaf7-e378-465f-ae52-bd04af81a138
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.producoes_periodicos_cientificos
+id: node.producoes_periodicos_cientificos
+target_entity_type_id: node
+target_bundle: producoes_periodicos_cientificos
+default_langcode: site_default
+language_alterable: false

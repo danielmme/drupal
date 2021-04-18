@@ -1,0 +1,19 @@
+uuid: 3f110298-0db0-456b-be33-d831b23599cf
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_serie
+    - node.type.livros
+id: node.livros.field_serie
+field_name: field_serie
+entity_type: node
+bundle: livros
+label: Série
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

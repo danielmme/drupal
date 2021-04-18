@@ -1,0 +1,19 @@
+uuid: 379af2bd-5d57-4d69-a025-721a3c1b4e2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_issn
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_issn
+field_name: field_issn
+entity_type: node
+bundle: materiais_diversificados
+label: 'Código de Publicação (ISSN)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

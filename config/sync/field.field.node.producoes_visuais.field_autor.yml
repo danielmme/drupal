@@ -1,0 +1,19 @@
+uuid: 6e63cabe-c32e-49b2-a134-e8c354eee495
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_autor
+field_name: field_autor
+entity_type: node
+bundle: producoes_visuais
+label: 'Autor (Cadastrante)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

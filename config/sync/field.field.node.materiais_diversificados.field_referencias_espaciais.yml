@@ -1,0 +1,31 @@
+uuid: 2e2d6f95-a07c-4e00-a581-bcb5a891169d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_referencias_espaciais
+    - node.type.materiais_diversificados
+    - paragraphs.paragraphs_type.referencia_espacial
+  module:
+    - entity_reference_revisions
+id: node.materiais_diversificados.field_referencias_espaciais
+field_name: field_referencias_espaciais
+entity_type: node
+bundle: materiais_diversificados
+label: 'Referência espacial'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      referencia_espacial: referencia_espacial
+    target_bundles_drag_drop:
+      referencia_espacial:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

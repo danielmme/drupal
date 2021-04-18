@@ -1,0 +1,16 @@
+uuid: 37e51bd9-1e35-4f63-b6a2-9b3fd2124216
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eG7FAwhqEjokKOmeRuoDjNNVkXfyCjKuFOVF3S56BmQ
+id: authenticated
+label: 'Usuário autenticado'
+weight: -9
+is_admin: false
+permissions:
+  - ''
+  - 'access administration pages'
+  - 'access content'
+  - 'search content'
+  - 'use editor transition create_new_draft'

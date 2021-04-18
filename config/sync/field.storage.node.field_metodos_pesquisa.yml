@@ -1,0 +1,30 @@
+uuid: 03469623-8a9e-4895-a697-b85eb84d12f4
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_metodos_pesquisa
+field_name: field_metodos_pesquisa
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: quantitativo
+      label: Quantitativo
+    -
+      value: qualitativo
+      label: Qualitativo
+    -
+      value: mixed_methods
+      label: 'Métodos mistos'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: 39a1ebec-19af-4e88-8fe7-fcc00debc2e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.catalogos
+id: node.catalogos
+target_entity_type_id: node
+target_bundle: catalogos
+default_langcode: site_default
+language_alterable: false

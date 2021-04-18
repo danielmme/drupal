@@ -1,0 +1,19 @@
+uuid: 1a598f59-0b75-48c7-a9f4-14f29c81a62a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fonte
+    - node.type.catalogos
+id: node.catalogos.field_fonte
+field_name: field_fonte
+entity_type: node
+bundle: catalogos
+label: 'Material de origem'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

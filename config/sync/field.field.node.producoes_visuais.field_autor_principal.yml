@@ -1,0 +1,19 @@
+uuid: 0b86b4c6-6dae-4e52-a73e-abdbf06371cb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_principal
+    - node.type.producoes_visuais
+id: node.producoes_visuais.field_autor_principal
+field_name: field_autor_principal
+entity_type: node
+bundle: producoes_visuais
+label: 'Autor Principal'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

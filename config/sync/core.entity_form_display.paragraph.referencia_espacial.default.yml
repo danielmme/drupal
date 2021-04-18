@@ -1,0 +1,110 @@
+uuid: 533185b6-1889-4d10-8fc8-5ea14e7c602e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.referencia_espacial.field_bairro
+    - field.field.paragraph.referencia_espacial.field_brasil
+    - field.field.paragraph.referencia_espacial.field_cidade
+    - field.field.paragraph.referencia_espacial.field_especificacao_da_ref_espac
+    - field.field.paragraph.referencia_espacial.field_localidade
+    - field.field.paragraph.referencia_espacial.field_logradouro
+    - field.field.paragraph.referencia_espacial.field_macrorregiao
+    - field.field.paragraph.referencia_espacial.field_mesorregiao
+    - field.field.paragraph.referencia_espacial.field_outros
+    - field.field.paragraph.referencia_espacial.field_pais
+    - field.field.paragraph.referencia_espacial.field_ref_nao_identificada
+    - field.field.paragraph.referencia_espacial.field_uf
+    - field.field.paragraph.referencia_espacial.field_zona
+    - paragraphs.paragraphs_type.referencia_espacial
+id: paragraph.referencia_espacial.default
+targetEntityType: paragraph
+bundle: referencia_espacial
+mode: default
+content:
+  field_bairro:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_brasil:
+    weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_cidade:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_especificacao_da_ref_espac:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_localidade:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_logradouro:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_macrorregiao:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_mesorregiao:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pais:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_uf:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_zona:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  field_outros: true
+  field_ref_nao_identificada: true
+  status: true

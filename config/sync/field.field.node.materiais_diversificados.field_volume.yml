@@ -1,0 +1,19 @@
+uuid: e2ca64a3-f364-4c2a-86ef-005210a7d093
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volume
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_volume
+field_name: field_volume
+entity_type: node
+bundle: materiais_diversificados
+label: Volume
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

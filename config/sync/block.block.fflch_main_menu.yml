@@ -1,0 +1,27 @@
+uuid: d068cac4-0408-46bc-8ef7-fd04642d4691
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - fflch
+_core:
+  default_config_hash: MpF8WnPS7FCs15qGOeA89r8vUhePx3WskjOtAPxyGUg
+id: fflch_main_menu
+theme: fflch
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navegação principal'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

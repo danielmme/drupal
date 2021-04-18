@@ -1,0 +1,21 @@
+uuid: ef3362ce-7768-4e64-a449-bad10d27cd28
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumo
+    - node.type.livros
+  module:
+    - text
+id: node.livros.field_resumo
+field_name: field_resumo
+entity_type: node
+bundle: livros
+label: Resumo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

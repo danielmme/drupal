@@ -1,0 +1,19 @@
+uuid: 6e40f504-9ffa-4331-bfa9-456c16fc1562
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fonte
+    - node.type.materiais_diversificados
+id: node.materiais_diversificados.field_fonte
+field_name: field_fonte
+entity_type: node
+bundle: materiais_diversificados
+label: 'Material de origem'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
