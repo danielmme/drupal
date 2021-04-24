@@ -22,26 +22,26 @@ class subject extends ProcessPluginBase {
   public function transform($value, MigrateExecutableInterface $migrate_executable, Row $row, $destination_property) {
 
     $vocabulary = $this->configuration['vocabulary'];
-
+  
     $pattern = '/\^a /';
     $replacement = '';
+    $tid = null;
 
     $term_name = preg_replace($pattern, $replacement, $value);
    
     if($term_name) {
-      if ($tid = $this->getTidByName($term_name, $vocabulary)) {
-        $term = Term::load($tid);
-      }
-      else {
+      if (!$this->getTidByName($term_name, $vocabulary)) {
         $term = Term::create([
           'name' => $term_name, 
           'vid'  => $vocabulary,
         ])->save();
       }
-      $result = ['target_id' => $term->id()];
+      $tid =  $this->getTidByName($term_name, $vocabulary);
+      $result = ['target_id' => $tid];
     }
-      return $result;
-    }
+
+  return $result;
+  }
 
   /**
    * Load term by name.
@@ -54,7 +54,7 @@ class subject extends ProcessPluginBase {
       $properties['vid'] = $vocabulary;
       $terms = \Drupal::entityManager()->getStorage('taxonomy_term')->loadByProperties($properties);
       $term = reset($terms);
-      $tid = $term->id();
+      $tid = is_object($term) ? $term->id() : null;
     }
     return $tid;
   }
