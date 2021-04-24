@@ -122,7 +122,6 @@ class thematicArea extends ProcessPluginBase {
       '^a Modo de vida, Imaginário social e cotidiano' => 'Modo de vida, imaginário social e cotidiano',
       '^a Estrutura urbana e Metropolitana' => 'Estrutura regional e metropolitana',
     ];
-
     foreach($map_area_tematica as $aux => $element) {
       if ($value == $aux) {
         $term_name = $element;
@@ -130,16 +129,13 @@ class thematicArea extends ProcessPluginBase {
     }
     
   if($term_name) {
-    if ($tid = $this->getTidByName($term_name, $vocabulary)) {
-      $term = Term::load($tid);
-    }
-    else {
+    if (!$this->getTidByName($term_name, $vocabulary)) {
       $term = Term::create([
         'name' => $term_name, 
         'vid'  => $vocabulary,
       ])->save();
-      $tid =  $this->getTidByName($term_name, $vocabulary);
     }
+    $tid =  $this->getTidByName($term_name, $vocabulary);
     $result = ['target_id' => $tid];
   }
     return $result;
