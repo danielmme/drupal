@@ -1,0 +1,19 @@
+uuid: f0932c8d-de36-4dc6-8f1c-79d4592e02f2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disciplina_sigla
+    - node.type.disciplina
+id: node.disciplina.field_disciplina_sigla
+field_name: field_disciplina_sigla
+entity_type: node
+bundle: disciplina
+label: 'Sigla da Disciplina'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

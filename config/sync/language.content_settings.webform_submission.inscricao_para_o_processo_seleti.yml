@@ -1,0 +1,11 @@
+uuid: 60109c5f-33d1-47b8-aa32-befa156e7504
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.inscricao_para_o_processo_seleti
+id: webform_submission.inscricao_para_o_processo_seleti
+target_entity_type_id: webform_submission
+target_bundle: inscricao_para_o_processo_seleti
+default_langcode: site_default
+language_alterable: false

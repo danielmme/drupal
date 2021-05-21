@@ -1,0 +1,11 @@
+uuid: fbe79ce2-396c-4b8d-b1f2-8349c33ab703
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.template_medical_appointment
+id: webform_submission.template_medical_appointment
+target_entity_type_id: webform_submission
+target_bundle: template_medical_appointment
+default_langcode: site_default
+language_alterable: false

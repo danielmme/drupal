@@ -1,0 +1,20 @@
+uuid: 359d84b5-076a-4c7c-99b3-e5bb71d26eb0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_foundry
+  module:
+    - path
+id: taxonomy_term.font_foundry.path
+field_name: path
+entity_type: taxonomy_term
+bundle: font_foundry
+label: 'URL alternativa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

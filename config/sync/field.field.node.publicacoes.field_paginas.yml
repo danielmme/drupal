@@ -1,0 +1,21 @@
+uuid: 79cb2be7-4274-4ae5-ae0e-cd7e4999f355
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paginas
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.field_paginas
+field_name: field_paginas
+entity_type: node
+bundle: publicacoes
+label: Páginas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

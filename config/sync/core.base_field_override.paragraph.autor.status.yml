@@ -1,0 +1,22 @@
+uuid: 9857b041-8891-4f2f-af80-f592a5a85ec5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.autor
+id: paragraph.autor.status
+field_name: status
+entity_type: paragraph
+bundle: autor
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

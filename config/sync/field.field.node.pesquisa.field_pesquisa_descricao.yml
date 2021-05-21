@@ -1,0 +1,23 @@
+uuid: 07b86a7e-434e-4ac3-be45-3d40535b7310
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pesquisa_descricao
+    - node.type.pesquisa
+  module:
+    - text
+id: node.pesquisa.field_pesquisa_descricao
+field_name: field_pesquisa_descricao
+entity_type: node
+bundle: pesquisa
+label: Descrição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,20 @@
+uuid: 7ff98ebe-53ab-41de-8f97-5987b3517a9a
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.editora
+field_name: editora
+entity_type: node
+type: text
+settings:
+  max_length: 150
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: adafaab7-bb11-4be3-b3cc-18f31e4f6def
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teses_aluno
+    - node.type.aluno
+    - node.type.teses_e_dissertacoes
+id: node.teses_e_dissertacoes.field_teses_aluno
+field_name: field_teses_aluno
+entity_type: node
+bundle: teses_e_dissertacoes
+label: Aluno
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      aluno: aluno
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

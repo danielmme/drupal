@@ -1,0 +1,20 @@
+uuid: 0a395573-dc0c-40be-b437-d010cab5d803
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+id: node.estagio.uid
+field_name: uid
+entity_type: node
+bundle: estagio
+label: 'Escrito por'
+description: 'O nome de usuário do autor do conteúdo.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

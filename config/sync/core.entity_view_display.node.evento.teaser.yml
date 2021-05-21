@@ -1,0 +1,30 @@
+uuid: d8c9c462-fe79-4803-b41c-596aceaa09e1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.evento.field_evento_data
+    - field.field.node.evento.field_evento_descricao
+    - field.field.node.evento.field_evento_subtitulo
+    - node.type.evento
+  module:
+    - user
+id: node.evento.teaser
+targetEntityType: node
+bundle: evento
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_evento_data: true
+  field_evento_descricao: true
+  field_evento_subtitulo: true
+  langcode: true

@@ -1,0 +1,19 @@
+uuid: 7bab7bef-bc73-4957-a01a-c1c49f0e139b
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_aluno_biografia
+field_name: field_aluno_biografia
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

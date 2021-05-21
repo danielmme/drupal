@@ -1,0 +1,141 @@
+uuid: c0867ba5-da5c-49c5-8776-fdcb9a705432
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.publicacoes.editora
+    - field.field.node.publicacoes.field_ano_publicacao
+    - field.field.node.publicacoes.field_autor
+    - field.field.node.publicacoes.field_autor_livro
+    - field.field.node.publicacoes.field_categoria_do_docente
+    - field.field.node.publicacoes.field_cidade
+    - field.field.node.publicacoes.field_edicao
+    - field.field.node.publicacoes.field_estado
+    - field.field.node.publicacoes.field_nome
+    - field.field.node.publicacoes.field_nome_do_peri
+    - field.field.node.publicacoes.field_paginas
+    - field.field.node.publicacoes.field_tipo_de_publicacao
+    - field.field.node.publicacoes.field_titulo_livro
+    - field.field.node.publicacoes.field_volume
+    - node.type.publicacoes
+  module:
+    - field_layout
+    - options
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.publicacoes.default
+targetEntityType: node
+bundle: publicacoes
+mode: default
+content:
+  field_ano_publicacao:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_autor:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_autor_livro:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_categoria_do_docente:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_cidade:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_edicao:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_estado:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_nome:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_nome_do_peri:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_paginas:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tipo_de_publicacao:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_titulo_livro:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_volume:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  editora: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

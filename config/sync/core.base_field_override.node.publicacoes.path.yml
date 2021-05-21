@@ -1,0 +1,20 @@
+uuid: 80d4e133-6c63-4a76-9792-c9b3bc02d934
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+  module:
+    - path
+id: node.publicacoes.path
+field_name: path
+entity_type: node
+bundle: publicacoes
+label: 'URL alternativa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

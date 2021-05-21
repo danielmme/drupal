@@ -1,0 +1,18 @@
+uuid: 6ae09c1c-0d30-4e37-8cef-8044d576a405
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.ano_da_publicacao
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.ano_da_publicacao
+target_entity_type_id: paragraph
+target_bundle: ano_da_publicacao
+default_langcode: site_default
+language_alterable: false

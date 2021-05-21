@@ -1,0 +1,14 @@
+uuid: fcdecf74-56a9-4b45-a2d2-970100ce73ae
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.docente_dcp
+  module:
+    - user
+id: user_remove_role_action.docente_dcp
+label: 'Remove the Docente DCP role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: docente_dcp

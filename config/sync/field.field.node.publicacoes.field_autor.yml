@@ -1,0 +1,21 @@
+uuid: 5870a803-8eb3-4349-b7c7-749f853393ca
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.field_autor
+field_name: field_autor
+entity_type: node
+bundle: publicacoes
+label: Autor
+description: 'FULANO, X. X.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

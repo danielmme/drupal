@@ -1,0 +1,20 @@
+uuid: eeb3fbac-fdcd-4c76-b31a-21819873bfec
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: zKT4xrIAHwi042RDw8RCjYnvWigc4YU6bHP9PixXnzI
+id: dcp_theme_page_title
+theme: dcp_theme
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  provider: core
+  label_display: '0'
+visibility: {  }

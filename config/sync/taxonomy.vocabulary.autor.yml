@@ -1,0 +1,8 @@
+uuid: 3b586652-e60c-4323-8678-121cf79e59af
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Autor
+vid: autor
+description: ''
+weight: 0

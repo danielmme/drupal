@@ -1,0 +1,10 @@
+uuid: 044192c7-4bf8-4524-9523-14afb5d41299
+langcode: pt-br
+status: true
+dependencies: {  }
+id: ano_da_publicacao
+label: 'Ano da publicação'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

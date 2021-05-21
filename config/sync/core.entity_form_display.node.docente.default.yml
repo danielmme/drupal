@@ -1,0 +1,218 @@
+uuid: b90bab8a-7651-4248-a25b-616921454bcd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.docente.field_docente_biografia
+    - field.field.node.docente.field_docente_email
+    - field.field.node.docente.field_docente_foto
+    - field.field.node.docente.field_docente_lattes
+    - field.field.node.docente.field_docente_numero_usp
+    - field.field.node.docente.field_docente_titulo
+    - image.style.thumbnail
+    - node.type.docente
+  module:
+    - field_group
+    - field_layout
+    - image
+    - layout_discovery
+    - link
+    - path
+    - scheduler
+    - text
+third_party_settings:
+  field_group:
+    group_publicacoes:
+      children:
+        - group_livro
+        - group_capitulo_de_l
+      parent_name: ''
+      weight: 17
+      format_type: details
+      region: content
+      format_settings:
+        description: ''
+        open: true
+        required_fields: true
+        id: publicacao
+        classes: ''
+      label: PUBLICAÇÕES
+    group_livro:
+      children: {  }
+      parent_name: group_publicacoes
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        formatter: open
+        required_fields: true
+        id: ''
+        classes: livro
+        description: ''
+      label: Livro
+    group_capitulo_de_l:
+      children: {  }
+      parent_name: group_publicacoes
+      weight: 21
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: capitulo
+        description: ''
+        formatter: open
+        required_fields: true
+      label: 'Capitulo de Livro'
+    group_pu:
+      children: {  }
+      parent_name: ''
+      weight: 18
+      format_type: html_element
+      region: content
+      format_settings:
+        element: div
+        show_label: true
+        label_element: h3
+        label_element_classes: ''
+        required_fields: true
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: publicacao
+      label: PUBLICAÇÕES
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.docente.default
+targetEntityType: node
+bundle: docente
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_docente_biografia:
+    weight: 30
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_docente_email:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_docente_foto:
+    weight: 28
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_docente_lattes:
+    weight: 29
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_docente_numero_usp:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_docente_titulo:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 7
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    region: content
+    third_party_settings: {  }
+  publish_on:
+    type: datetime_timestamp_no_default
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 11
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 8
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  unpublish_on:
+    type: datetime_timestamp_no_default
+    weight: 14
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  url_redirects:
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

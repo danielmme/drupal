@@ -1,0 +1,18 @@
+uuid: 57664382-f911-4a43-a2ff-ec211df08bf8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.unpublish_on
+field_name: unpublish_on
+entity_type: node
+bundle: disciplina
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

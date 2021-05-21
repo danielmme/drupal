@@ -1,0 +1,18 @@
+uuid: e30a87c5-6148-4a7b-b229-3bebe165b4d9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.docente
+id: node.docente.title
+field_name: title
+entity_type: node
+bundle: docente
+label: 'Nome do docente'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

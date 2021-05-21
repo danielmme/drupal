@@ -1,0 +1,30 @@
+uuid: 210d7a52-f4a7-4064-ac0e-a87c09424908
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_disciplina_imagem
+field_name: field_disciplina_imagem
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

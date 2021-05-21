@@ -1,0 +1,29 @@
+uuid: 920eef83-ed83-45f8-a9a3-2848615fb7cd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disciplina_professores
+    - node.type.disciplina
+    - taxonomy.vocabulary.professores_dcp
+id: node.disciplina.field_disciplina_professores
+field_name: field_disciplina_professores
+entity_type: node
+bundle: disciplina
+label: Professor(es)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      professores_dcp: professores_dcp
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,54 @@
+uuid: 37641fec-913e-48ba-aa6c-cfcf79b38851
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.estagio.body
+    - field.field.node.estagio.field_estagio_data
+    - field.field.node.estagio.field_estagio_imagem
+    - node.type.estagio
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.estagio.default
+targetEntityType: node
+bundle: estagio
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_estagio_data:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_estagio_imagem:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

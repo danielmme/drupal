@@ -1,0 +1,18 @@
+uuid: 94a5fbd2-e7f1-4d33-81fb-13347c65ea35
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+id: node.publicacoes.title
+field_name: title
+entity_type: node
+bundle: publicacoes
+label: Título
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

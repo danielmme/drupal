@@ -1,0 +1,38 @@
+uuid: f5a0a87f-d4c3-4b28-99de-49106ed13c2e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_estagio_imagem
+    - node.type.estagio
+  module:
+    - image
+id: node.estagio.field_estagio_imagem
+field_name: field_estagio_imagem
+entity_type: node
+bundle: estagio
+label: Imagem
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,18 @@
+uuid: c5ffbf2d-ee82-4bf3-9d92-7e5340e3d9b7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.publish_on
+field_name: publish_on
+entity_type: node
+bundle: disciplina
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

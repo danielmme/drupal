@@ -1,0 +1,18 @@
+uuid: ab9e0a99-6ffd-43e0-b8fd-bd9af969ceba
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+id: taxonomy_term.languages_supported.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: languages_supported
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

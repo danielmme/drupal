@@ -1,0 +1,21 @@
+uuid: c10918fe-d8ad-4c05-a5a0-e44c479e4f94
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_livro
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.field_titulo_livro
+field_name: field_titulo_livro
+entity_type: node
+bundle: publicacoes
+label: 'Título do Livro'
+description: '(preencher somente quando se tratar de capítulo)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

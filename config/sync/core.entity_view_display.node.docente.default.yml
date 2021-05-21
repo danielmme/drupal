@@ -1,0 +1,184 @@
+uuid: 5ea227c2-436b-4a85-b902-4d4b9535f25c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.docente.field_docente_biografia
+    - field.field.node.docente.field_docente_email
+    - field.field.node.docente.field_docente_foto
+    - field.field.node.docente.field_docente_lattes
+    - field.field.node.docente.field_docente_numero_usp
+    - field.field.node.docente.field_docente_titulo
+    - node.type.docente
+  module:
+    - field_group
+    - field_layout
+    - image
+    - link
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_esquerda:
+      children:
+        - field_foto
+        - field_e_mail
+        - field_cv_lattes
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      region: content
+      format_settings:
+        id: ''
+        classes: esquerda
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: esquerda
+    group_direita:
+      children:
+        - body
+      parent_name: ''
+      weight: 2
+      format_type: html_element
+      region: content
+      format_settings:
+        id: ''
+        classes: direita
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: direita
+    group_publicacoes:
+      children: {  }
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      region: content
+      format_settings:
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: publicacao
+        description: ''
+      label: PUBLICAÇÕES
+    group_entrevistas_e_podcasts:
+      children: {  }
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      region: content
+      format_settings:
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: entrevista
+        description: ''
+      label: 'ENTREVISTAS E PODCASTS'
+    group_nucleo:
+      children: {  }
+      parent_name: ''
+      weight: 5
+      format_type: fieldset
+      region: content
+      format_settings:
+        element: div
+        show_label: true
+        label_element: h2
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: nucleo
+        description: ''
+      label: 'NÚCLEO / GRUPO DE PESQUISA'
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.docente.default
+targetEntityType: node
+bundle: docente
+mode: default
+content:
+  field_docente_biografia:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_docente_email:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_docente_foto:
+    weight: 9
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_docente_lattes:
+    weight: 10
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_docente_numero_usp:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_docente_titulo:
+    weight: 12
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  layout_builder__layout: true

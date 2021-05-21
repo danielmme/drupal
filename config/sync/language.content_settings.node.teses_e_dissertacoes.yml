@@ -1,0 +1,11 @@
+uuid: 66c6eab4-efd5-4e08-b337-c5656a5d1273
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.teses_e_dissertacoes
+id: node.teses_e_dissertacoes
+target_entity_type_id: node
+target_bundle: teses_e_dissertacoes
+default_langcode: site_default
+language_alterable: false

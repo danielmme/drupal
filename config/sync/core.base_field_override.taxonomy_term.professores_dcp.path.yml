@@ -1,0 +1,20 @@
+uuid: e298f634-64a9-4e78-ad01-f6febcfc4145
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.professores_dcp
+  module:
+    - path
+id: taxonomy_term.professores_dcp.path
+field_name: path
+entity_type: taxonomy_term
+bundle: professores_dcp
+label: 'URL alternativa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

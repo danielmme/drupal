@@ -1,0 +1,13 @@
+label: 'Editando idiomas'
+tips:
+  language-edit-overview:
+    label: 'Editando idiomas'
+    body: '<p>Esta página fornece a habilidade para editar um idioma em seu site, incluindo idiomas personalizados.</p>'
+  language-edit-langcode:
+    label: 'Código do idioma'
+  language-edit-label:
+    label: 'Nome do idioma'
+  language-edit-direction:
+    label: 'Direção do idioma'
+  language-edit-continue:
+    label: Continuando

@@ -1,0 +1,27 @@
+uuid: e88e9d10-92a8-46f2-8bef-2021849b7d1a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: MpF8WnPS7FCs15qGOeA89r8vUhePx3WskjOtAPxyGUg
+id: dcp_theme_main_menu
+theme: dcp_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navegação principal'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

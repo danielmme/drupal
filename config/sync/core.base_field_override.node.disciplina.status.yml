@@ -1,0 +1,22 @@
+uuid: 70e52311-fb7f-422a-abef-4da91ca22f26
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.status
+field_name: status
+entity_type: node
+bundle: disciplina
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

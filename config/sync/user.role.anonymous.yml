@@ -1,0 +1,16 @@
+uuid: 2e5aecfc-838f-4a7b-b5c9-1bd9ebf16f24
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 03WdYqZ9m4ZWusTCgaLVa4EXTpy83dTIlkCDxy4Hi80
+id: anonymous
+label: 'Usuário anônimo'
+weight: 0
+is_admin: false
+permissions:
+  - ''
+  - 'access content'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'

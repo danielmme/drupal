@@ -1,0 +1,13 @@
+uuid: fd2aadbc-b096-4d5c-87cb-e88720a41bf3
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - file
+_core:
+  default_config_hash: lrDYvKksw1PrXSj_mYCaj2G426tURjCTmU1OBHiCy4E
+id: file.file
+target_entity_type_id: file
+target_bundle: file
+default_langcode: site_default
+language_alterable: false

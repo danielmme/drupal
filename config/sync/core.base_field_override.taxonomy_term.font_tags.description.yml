@@ -1,0 +1,20 @@
+uuid: b6b76f13-6dfe-42d3-9d89-0f598c41ae82
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_tags
+  module:
+    - text
+id: taxonomy_term.font_tags.description
+field_name: description
+entity_type: taxonomy_term
+bundle: font_tags
+label: Descrição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

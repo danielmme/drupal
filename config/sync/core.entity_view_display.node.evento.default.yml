@@ -1,0 +1,52 @@
+uuid: 62d14e74-7c28-4c5c-956a-286da6dd8ee6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.evento.field_evento_data
+    - field.field.node.evento.field_evento_descricao
+    - field.field.node.evento.field_evento_subtitulo
+    - node.type.evento
+  module:
+    - text
+    - user
+id: node.evento.default
+targetEntityType: node
+bundle: evento
+mode: default
+content:
+  field_evento_data:
+    weight: 101
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_evento_descricao:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_evento_subtitulo:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: 2e7f06d8-c25c-4ff6-aa85-b0066ce47001
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_classification
+  module:
+    - path
+id: taxonomy_term.font_classification.path
+field_name: path
+entity_type: taxonomy_term
+bundle: font_classification
+label: 'URL alternativa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

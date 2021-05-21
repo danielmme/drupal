@@ -1,0 +1,23 @@
+uuid: de6f2073-13a5-458b-a946-9fde15d6bd7d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.estagio
+  module:
+    - text
+id: node.estagio.body
+field_name: body
+entity_type: node
+bundle: estagio
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

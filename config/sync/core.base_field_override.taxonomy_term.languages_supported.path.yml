@@ -1,0 +1,20 @@
+uuid: 050126b8-09b3-4eb2-81c2-9751cf8a57b5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+  module:
+    - path
+id: taxonomy_term.languages_supported.path
+field_name: path
+entity_type: taxonomy_term
+bundle: languages_supported
+label: 'URL alternativa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

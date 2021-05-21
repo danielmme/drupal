@@ -1,0 +1,18 @@
+uuid: fb157705-81e9-446f-b49c-1d6c6b84f991
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+id: taxonomy_term.languages_supported.name
+field_name: name
+entity_type: taxonomy_term
+bundle: languages_supported
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

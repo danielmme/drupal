@@ -1,0 +1,11 @@
+uuid: 7bea237a-5b28-4f7c-80f3-69e064b0d9e9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.template_job_seeker_profile
+id: webform_submission.template_job_seeker_profile
+target_entity_type_id: webform_submission
+target_bundle: template_job_seeker_profile
+default_langcode: site_default
+language_alterable: false

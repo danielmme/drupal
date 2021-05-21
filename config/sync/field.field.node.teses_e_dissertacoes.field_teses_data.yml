@@ -1,0 +1,21 @@
+uuid: 50421f01-31fc-41b6-8580-9a6fcc35f410
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teses_data
+    - node.type.teses_e_dissertacoes
+id: node.teses_e_dissertacoes.field_teses_data
+field_name: field_teses_data
+entity_type: node
+bundle: teses_e_dissertacoes
+label: Data
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1621532868
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

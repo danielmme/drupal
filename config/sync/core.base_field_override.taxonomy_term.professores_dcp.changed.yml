@@ -1,0 +1,18 @@
+uuid: a37e71f1-6fc8-4f17-ab60-3db73dcc6f22
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.professores_dcp
+id: taxonomy_term.professores_dcp.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: professores_dcp
+label: Alterado
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

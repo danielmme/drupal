@@ -1,0 +1,20 @@
+uuid: 589e178b-1977-474d-a6e1-98c531909106
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.professores_dcp
+  module:
+    - text
+id: taxonomy_term.professores_dcp.description
+field_name: description
+entity_type: taxonomy_term
+bundle: professores_dcp
+label: Descrição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

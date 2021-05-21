@@ -1,0 +1,21 @@
+uuid: c7130d56-9595-4b00-8a8a-45fd83e6b199
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cidade
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.editora
+field_name: editora
+entity_type: node
+bundle: publicacoes
+label: Editora
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

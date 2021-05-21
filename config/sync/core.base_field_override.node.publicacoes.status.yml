@@ -1,0 +1,22 @@
+uuid: 30c19996-2280-4167-a8f0-6637fa1ea6d6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+id: node.publicacoes.status
+field_name: status
+entity_type: node
+bundle: publicacoes
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

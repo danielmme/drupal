@@ -1,0 +1,15 @@
+uuid: ae74f40f-2734-4765-a6ee-83ce098d4826
+name: 'Ciência Política'
+mail: dcp@usp.br
+slogan: 'Departamento de'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: pt-br
+default_langcode: pt-br
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: medeiros.danielm@gmail.com

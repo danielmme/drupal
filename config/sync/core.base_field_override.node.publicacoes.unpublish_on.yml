@@ -1,0 +1,18 @@
+uuid: 5f83a759-d10d-42b3-bd2d-2f7faa5e7023
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+id: node.publicacoes.unpublish_on
+field_name: unpublish_on
+entity_type: node
+bundle: publicacoes
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

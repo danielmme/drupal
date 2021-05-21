@@ -1,0 +1,18 @@
+uuid: d82bcb86-7d75-4d8f-b482-5a1b54020853
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - user
+id: user.user.changed
+field_name: changed
+entity_type: user
+bundle: user
+label: Alterado
+description: 'The time that the user was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

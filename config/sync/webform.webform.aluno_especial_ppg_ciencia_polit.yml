@@ -1,0 +1,282 @@
+uuid: 42e4f9d7-786b-4648-9fb6-a73f867a6b3e
+langcode: pt-br
+status: scheduled
+dependencies:
+  module:
+    - webform_entity_print
+third_party_settings:
+  webform_entity_print:
+    template:
+      header: ''
+      footer: ''
+      css: ''
+    export_types:
+      pdf:
+        enabled: true
+        link_text: ''
+        link_attributes: {  }
+open: '2021-02-01T08:00:00'
+close: '2021-02-05T18:00:00'
+weight: 0
+uid: 5
+template: false
+archive: false
+id: aluno_especial_ppg_ciencia_polit
+title: 'Aluno Especial e Alunos da Unesp e Unicamp - PPG Ciência Política - 1º semestre de 2021'
+description: ''
+category: ''
+elements: "modalidade:\n  '#type': select\n  '#title': Modalidade\n  '#options':\n    1: 'Aluno de pós-graduação UNESP/UNICAMP'\n    2: 'Aluno Especial (demais interessados possuidores de no mínimo título de graduação em qualquer área)'\n  '#required': true\nrequerimento_de_inscricao:\n  '#type': fieldset\n  '#title': 'Requerimento de inscrição'\n  '#more_title': 'Informamos que os candidatos são isentos do pagamento de taxa de inscrição.'\n  nome_completo:\n    '#type': textfield\n    '#title': Candidato\n    '#description': 'Digite o seu nome completo.'\n    '#required': true\n  candidato:\n    '#type': textfield\n    '#title': 'Código da Disciplina'\n    '#description': 'Digite o seu nome completo.'\n    '#required': true\n  nome_da_disciplina:\n    '#type': textfield\n    '#title': 'Nome da Disciplina'\n    '#description': 'Digite o seu nome completo.'\n    '#required': true\n  nome_do_ministrante:\n    '#type': textfield\n    '#title': 'Nome do Ministrante'\n    '#description': 'Digite o seu nome completo.'\n    '#required': true\npessoa_com_deficiencia_:\n  '#type': checkboxes\n  '#title': 'Pessoa com deficiência?'\n  '#options':\n    1: Sim\n    2: Não\n  '#options_display': two_columns\n  '#required': true\nrequer_algum_recurso_de_acessibilidade_:\n  '#type': checkboxes\n  '#title': 'Requer algum recurso de acessibilidade?'\n  '#options':\n    1: Sim\n    2: Não\n  '#options_display': two_columns\nindique_os_recursos_de_acessibilidade:\n  '#type': textfield\n  '#title': 'Indique os recursos de acessibilidade'\ndados_pessoais:\n  '#type': fieldset\n  '#title': 'Dados Pessoais'\n  data_de_nascimento:\n    '#type': date\n    '#title': 'Data de nascimento'\n    '#required': true\n    '#format': dia_mes_ano\n    '#date_date_format': ''\n  sexo:\n    '#type': select\n    '#title': Sexo\n    '#options':\n      1: Feminino\n      2: Masculino\n    '#required': true\n  cpf1:\n    '#type': textfield\n    '#title': CPF\n    '#size': 16\n  nome_da_mae:\n    '#type': textfield\n    '#title': 'Nome da mãe'\n  nome_do_pai:\n    '#type': textfield\n    '#title': 'Nome do pai'\n  local_de_nascimento:\n    '#type': webform_custom_composite\n    '#title': 'Local de nascimento'\n    '#element':\n      1:\n        '#type': textfield\n        '#required': true\n        '#title': Cidade\n      2:\n        '#type': textfield\n        '#required': true\n        '#title': UF\n      3:\n        '#type': textfield\n        '#title': País\n  nacionalidade:\n    '#type': textfield\n    '#title': Nacionalidade\n    '#required': true\n  documento_de_identidade:\n    '#type': select\n    '#title': 'Documento de identidade'\n    '#options':\n      1: RG\n      2: 'RNE (Registro Nacional de Estrangeiros)'\n      3: Passaporte\n    '#required': true\n  numero_do_documento:\n    '#type': textfield\n    '#title': 'Número do documento'\n    '#required': true\n  data_de_expedicao_do_documento:\n    '#type': date\n    '#title': 'Data de expedição do documento'\n    '#date_date_format': ''\n  orgao_expedidor_ssp_dpf_etc_:\n    '#type': textfield\n    '#title': 'Órgão expedidor (SSP, DPF, etc.)'\n  data_de_validade_do_documento:\n    '#type': date\n    '#title': 'Data de validade do documento'\n    '#date_date_format': ''\n  endereco:\n    '#type': webform_address\n    '#title': Endereço\n    '#title_display': ''\n    '#address__title': 'Logradouro (Rua, Avenida, Praça, etc.)'\n    '#address_2__title': Bairro\n    '#city__title': Cidade\n    '#state_province__title': UF\n    '#state_province__type': textfield\n    '#postal_code__title': CEP\n  telefones:\n    '#type': webform_telephone\n    '#title': Telefones\n    '#type__help': '(Celular, Residencial, Escritório, contato)'\n    '#phone__title': Número\n    '#ext__access': false\n    '#phone__international_initial_country': BR\n  email:\n    '#type': email\n    '#title': Email\n    '#required': true\ndados_sobre_a_graduacao:\n  '#type': webform_section\n  '#title': 'Dados sobre a Graduação'\n  nome_da_instituicao:\n    '#type': textfield\n    '#title': 'Nome da instituição'\n    '#required': true\n  data_da_conclusao:\n    '#type': date\n    '#title': 'Data da conclusão'\n    '#description': 'ou da cola&ccedil;&atilde;o de grau'\n    '#required': true\n    '#date_date_format': ''\n  titulo_obtido:\n    '#type': textfield\n    '#title': 'Título obtido'\n    '#description': '(Ex.: bacharem em ..., licenciado em ...)'\n    '#required': true\n  pais:\n    '#type': webform_address\n    '#title': País\n    '#address__access': false\n    '#address_2__access': false\n    '#city__access': false\n    '#state_province__access': false\n    '#postal_code__access': false\nanexos:\n  '#type': webform_section\n  '#title': Anexos\n  curriculo_lattes_:\n    '#type': managed_file\n    '#title': 'Currículo (lattes)'\n    '#required': true\n    '#max_filesize': '4'\n    '#file_extensions': pdf\n  documento_de_identidade1:\n    '#type': managed_file\n    '#title': 'Documento de identidade'\n    '#required': true\n    '#max_filesize': '2'\n    '#file_extensions': 'jpg png pdf'\n  cpf:\n    '#type': managed_file\n    '#title': CPF\n    '#max_filesize': '2'\n    '#file_extensions': 'jp gpng pdf'\n  diploma_de_graduacao:\n    '#type': managed_file\n    '#title': 'Diploma de graduação'\n    '#file_placeholder': 'Frente / verso'\n    '#max_filesize': '3'\n    '#file_extensions': 'jpg pdf'\n    '#required': true\n  historico_escolar_da_graduacao:\n    '#type': managed_file\n    '#title': 'Histórico escolar da graduação'\n    '#max_filesize': '4'\n    '#file_extensions': 'jpg pdf'\n    '#required': true\n  carta_motivacao:\n    '#type': managed_file\n    '#title': 'Carta de intenção'\n    '#file_placeholder': 'Carta de inten&ccedil;&atilde;o de cursar a disciplina dirigida ao ministrante da Disciplina.'\n    '#max_filesize': '4'\n    '#file_extensions': 'pdf doc docx'\n    '#required': true"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: ''
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: /aluno_especial2021
+  page_confirm_path: ''
+  page_theme_name: ''
+  form_title: source_entity_webform
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_disable_remote_addr: false
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_auto_forward: true
+  wizard_auto_forward_hide_next_button: false
+  wizard_keyboard: true
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: true
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: 'Sua inscrição foi recebida com sucesso!'
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+  token_delete: false
+  serial_disabled: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  e_mail:
+    id: email
+    label: 'E-mail (Secrecataria)'
+    notes: ''
+    handler_id: e_mail
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: ppg.cp@usp.br
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: 'Nova Inscrição de Aluno Especial e Alunos da Unesp e Unicamp'
+      body: _default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      exclude_attachments: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
+      parameters: {  }
+  e_mail_1:
+    id: email
+    label: 'E-mail (Solicitante)'
+    notes: ''
+    handler_id: e_mail_1
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: '[webform_submission:values:email:raw]'
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: 'Confirmação de Inscrição - Aluno Especial e Alunos da Unesp e Unicamp (PPG Ciência Política)'
+      body: 'Sua inscrição foi recebida com sucesso!'
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      exclude_attachments: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
+      parameters: {  }
+variants: {  }

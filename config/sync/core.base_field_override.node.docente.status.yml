@@ -1,0 +1,22 @@
+uuid: 1a57ff4e-7db1-42b2-b56a-b9b43fa16c2a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.docente
+id: node.docente.status
+field_name: status
+entity_type: node
+bundle: docente
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

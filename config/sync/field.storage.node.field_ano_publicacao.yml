@@ -1,0 +1,20 @@
+uuid: bec201f9-5fcb-486d-a83d-9effba245f0b
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ano_publicacao
+field_name: field_ano_publicacao
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 0
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,15 @@
+uuid: ac3b221c-824f-494d-bf2a-9c6b411bd961
+langcode: pt-br
+status: true
+dependencies: {  }
+name: docentes_do_dcp
+label: 'Docentes do DCP'
+effects:
+  9afda7f7-a9a0-4f2d-84f2-ccb7eabf1ba6:
+    uuid: 9afda7f7-a9a0-4f2d-84f2-ccb7eabf1ba6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 180
+      height: 180
+      anchor: center-center

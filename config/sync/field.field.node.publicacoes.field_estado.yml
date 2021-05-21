@@ -1,0 +1,21 @@
+uuid: d0028cb4-f3f1-480a-8114-f95cf162e454
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_estado
+    - node.type.publicacoes
+  module:
+    - options
+id: node.publicacoes.field_estado
+field_name: field_estado
+entity_type: node
+bundle: publicacoes
+label: Estado
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

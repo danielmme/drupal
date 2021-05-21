@@ -1,0 +1,20 @@
+uuid: 2360ffe7-c66e-46df-8c9a-954f948227ee
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+id: node.estagio.menu_link
+field_name: menu_link
+entity_type: node
+bundle: estagio
+label: 'Link de menu'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

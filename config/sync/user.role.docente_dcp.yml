@@ -1,0 +1,18 @@
+uuid: e4c16ff3-ae61-426e-9bc6-3bb5d5791d4a
+langcode: pt-br
+status: true
+dependencies: {  }
+id: docente_dcp
+label: 'Docente DCP'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'administer shortcuts'
+  - 'create docente content'
+  - 'delete docente revisions'
+  - 'delete own docente content'
+  - 'edit own docente content'
+  - 'revert docente revisions'
+  - 'view docente revisions'
+  - 'view own unpublished content'

@@ -1,0 +1,30 @@
+uuid: 3ad4f4c4-d651-46f6-953f-6ecf23feae1f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.teses_e_dissertacoes.field_teses_aluno
+    - field.field.node.teses_e_dissertacoes.field_teses_data
+    - field.field.node.teses_e_dissertacoes.field_teses_orientador
+    - node.type.teses_e_dissertacoes
+  module:
+    - user
+id: node.teses_e_dissertacoes.teaser
+targetEntityType: node
+bundle: teses_e_dissertacoes
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_teses_aluno: true
+  field_teses_data: true
+  field_teses_orientador: true
+  langcode: true

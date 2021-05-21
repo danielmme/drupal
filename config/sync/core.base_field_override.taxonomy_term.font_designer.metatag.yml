@@ -1,0 +1,18 @@
+uuid: d616d0f7-8526-4682-b34c-64f9b9cb6e3a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_designer
+id: taxonomy_term.font_designer.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: font_designer
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

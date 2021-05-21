@@ -1,0 +1,27 @@
+uuid: 06269624-52d4-46b6-b045-008e811adfdb
+langcode: pt-br
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: 5UC3U2YmnWLS2Eo4WLUQXuDRv3fXu7oc8Bu9LIX0Uls
+id: dcp_theme_account_menu
+theme: dcp_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu de conta de usuário'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

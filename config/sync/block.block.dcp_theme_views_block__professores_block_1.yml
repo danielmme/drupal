@@ -1,0 +1,32 @@
+uuid: d7370666-a0e4-48fe-91b6-c7ea0f476711
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.professores
+  module:
+    - ctools
+    - views
+  theme:
+    - dcp_theme
+id: dcp_theme_views_block__professores_block_1
+theme: dcp_theme
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:professores-block_1'
+settings:
+  id: 'views_block:professores-block_1'
+  label: LIVROS
+  provider: views
+  label_display: visible
+  views_label: LIVROS
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      docente: docente
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

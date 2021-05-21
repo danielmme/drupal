@@ -1,0 +1,21 @@
+uuid: 804a9576-81d1-4184-a92c-79f6c3741b79
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nome
+    - node.type.publicacoes
+  module:
+    - options
+id: node.publicacoes.field_nome
+field_name: field_nome
+entity_type: node
+bundle: publicacoes
+label: 'Nome Completo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

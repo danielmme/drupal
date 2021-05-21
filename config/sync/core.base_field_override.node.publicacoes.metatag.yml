@@ -1,0 +1,18 @@
+uuid: 60d401ff-486b-4770-bad5-04b7ed118779
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+id: node.publicacoes.metatag
+field_name: metatag
+entity_type: node
+bundle: publicacoes
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

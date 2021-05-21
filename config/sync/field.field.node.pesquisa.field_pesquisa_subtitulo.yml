@@ -1,0 +1,19 @@
+uuid: e96281d8-ffc1-4c05-b0ef-a073cd4469ca
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pesquisa_subtitulo
+    - node.type.pesquisa
+id: node.pesquisa.field_pesquisa_subtitulo
+field_name: field_pesquisa_subtitulo
+entity_type: node
+bundle: pesquisa
+label: Subtítulo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

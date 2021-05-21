@@ -1,0 +1,21 @@
+uuid: 398fdeef-a02d-45b3-b3ee-f422140d39e8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disciplina_tipo
+    - node.type.disciplina
+  module:
+    - options
+id: node.disciplina.field_disciplina_tipo
+field_name: field_disciplina_tipo
+entity_type: node
+bundle: disciplina
+label: Tipo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

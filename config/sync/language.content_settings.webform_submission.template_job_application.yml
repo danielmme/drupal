@@ -1,0 +1,11 @@
+uuid: 6907a82a-cb93-4731-a3e0-8045cef18157
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.template_job_application
+id: webform_submission.template_job_application
+target_entity_type_id: webform_submission
+target_bundle: template_job_application
+default_langcode: site_default
+language_alterable: false

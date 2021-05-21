@@ -1,0 +1,22 @@
+uuid: ced7e555-8523-4193-8eb7-f5e129666ac3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.webform
+id: node.webform.sticky
+field_name: sticky
+entity_type: node
+bundle: webform
+label: 'Destacado no topo da página'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: ad5128f9-34a8-45c6-9acc-1222ca230e26
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.ano_da_publicacao
+id: paragraph.ano_da_publicacao.status
+field_name: status
+entity_type: paragraph
+bundle: ano_da_publicacao
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

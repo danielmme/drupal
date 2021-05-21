@@ -1,0 +1,22 @@
+uuid: cfd2cac8-89b2-41cd-a0ce-465a2a7c4fe7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_designer
+id: taxonomy_term.font_designer.status
+field_name: status
+entity_type: taxonomy_term
+bundle: font_designer
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

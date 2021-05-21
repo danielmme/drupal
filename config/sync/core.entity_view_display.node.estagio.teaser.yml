@@ -1,0 +1,39 @@
+uuid: ffccb794-41e7-4074-a1dd-d3924fe978df
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.estagio.body
+    - field.field.node.estagio.field_estagio_data
+    - field.field.node.estagio.field_estagio_imagem
+    - node.type.estagio
+  module:
+    - image
+    - user
+id: node.estagio.teaser
+targetEntityType: node
+bundle: estagio
+mode: teaser
+content:
+  field_estagio_imagem:
+    type: image
+    weight: 0
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_estagio_data: true
+  langcode: true

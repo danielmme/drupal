@@ -1,0 +1,30 @@
+uuid: 4ad3e906-256a-4916-80ee-43b96fef4516
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - ctools
+  theme:
+    - dcp_theme
+id: dcp_theme_informacoesalunoespecial2021
+theme: dcp_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:7c316395-101f-44bc-9028-22d5011a50eb'
+settings:
+  id: 'block_content:7c316395-101f-44bc-9028-22d5011a50eb'
+  label: 'Informações Aluno Especial 2021'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    bundles:
+      aluno_especial_ppg_ciencia_polit: aluno_especial_ppg_ciencia_polit
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'

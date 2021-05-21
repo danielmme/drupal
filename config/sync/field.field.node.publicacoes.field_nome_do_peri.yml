@@ -1,0 +1,21 @@
+uuid: d9bc2778-e6ee-4244-a807-9d451fd70e5c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nome_do_peri
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.field_nome_do_peri
+field_name: field_nome_do_peri
+entity_type: node
+bundle: publicacoes
+label: 'Nome do periódico'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

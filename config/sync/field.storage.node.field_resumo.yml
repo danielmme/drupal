@@ -1,0 +1,19 @@
+uuid: e4da5f5d-d170-4a5f-b6f1-abe95816549e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_resumo
+field_name: field_resumo
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

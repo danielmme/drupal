@@ -1,0 +1,21 @@
+uuid: 51e3a49b-b656-4415-8aa9-ff45dda0de6a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_estagio_data
+    - node.type.estagio
+  module:
+    - datetime
+id: node.estagio.field_estagio_data
+field_name: field_estagio_data
+entity_type: node
+bundle: estagio
+label: Data
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

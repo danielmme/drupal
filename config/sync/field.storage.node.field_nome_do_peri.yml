@@ -1,0 +1,20 @@
+uuid: 4fbb3871-509e-4270-8c10-377381178d0d
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_nome_do_peri
+field_name: field_nome_do_peri
+entity_type: node
+type: text
+settings:
+  max_length: 150
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

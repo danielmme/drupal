@@ -1,0 +1,70 @@
+uuid: b968cd8b-577e-4716-872b-f55baf92e7ee
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.disciplina.field_disciplina_descricao
+    - field.field.node.disciplina.field_disciplina_imagem
+    - field.field.node.disciplina.field_disciplina_professores
+    - field.field.node.disciplina.field_disciplina_sigla
+    - field.field.node.disciplina.field_disciplina_tipo
+    - node.type.disciplina
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.disciplina.default
+targetEntityType: node
+bundle: disciplina
+mode: default
+content:
+  field_disciplina_descricao:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_disciplina_imagem:
+    weight: 106
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_disciplina_professores:
+    weight: 108
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_disciplina_sigla:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_disciplina_tipo:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

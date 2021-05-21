@@ -1,0 +1,18 @@
+uuid: 890e6f88-6e38-4a9c-a7b0-faaf53d3873e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.aluno
+id: node.aluno.title
+field_name: title
+entity_type: node
+bundle: aluno
+label: 'Nome do aluno'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

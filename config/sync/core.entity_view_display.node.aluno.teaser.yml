@@ -1,0 +1,34 @@
+uuid: afa01bd7-58fb-4908-87a1-03e604255853
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.aluno.field_aluno_biografia
+    - field.field.node.aluno.field_aluno_departamento
+    - field.field.node.aluno.field_aluno_email
+    - field.field.node.aluno.field_aluno_foto
+    - field.field.node.aluno.field_aluno_lattes
+    - node.type.aluno
+  module:
+    - user
+id: node.aluno.teaser
+targetEntityType: node
+bundle: aluno
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_aluno_biografia: true
+  field_aluno_departamento: true
+  field_aluno_email: true
+  field_aluno_foto: true
+  field_aluno_lattes: true
+  langcode: true

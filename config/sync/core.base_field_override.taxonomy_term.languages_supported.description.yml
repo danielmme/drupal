@@ -1,0 +1,20 @@
+uuid: ee324f33-d726-455d-8c38-1db47e97a50e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+  module:
+    - text
+id: taxonomy_term.languages_supported.description
+field_name: description
+entity_type: taxonomy_term
+bundle: languages_supported
+label: Descrição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

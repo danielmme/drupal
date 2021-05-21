@@ -1,0 +1,42 @@
+uuid: f42e2f6a-e520-47cd-b89a-b16171d0d239
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.docente.field_docente_biografia
+    - field.field.node.docente.field_docente_email
+    - field.field.node.docente.field_docente_foto
+    - field.field.node.docente.field_docente_lattes
+    - field.field.node.docente.field_docente_numero_usp
+    - field.field.node.docente.field_docente_titulo
+    - node.type.docente
+  module:
+    - field_layout
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.docente.teaser
+targetEntityType: node
+bundle: docente
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_docente_biografia: true
+  field_docente_email: true
+  field_docente_foto: true
+  field_docente_lattes: true
+  field_docente_numero_usp: true
+  field_docente_titulo: true
+  langcode: true

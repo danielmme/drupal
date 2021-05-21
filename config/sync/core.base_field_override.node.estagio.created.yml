@@ -1,0 +1,18 @@
+uuid: d376743d-cd2a-4924-b6de-46f362a5ec25
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+id: node.estagio.created
+field_name: created
+entity_type: node
+bundle: estagio
+label: 'Escrito em'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

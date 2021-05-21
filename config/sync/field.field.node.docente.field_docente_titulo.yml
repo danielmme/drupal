@@ -1,0 +1,19 @@
+uuid: 77282d1c-7b63-475f-b3cf-72d89ddbb24d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_docente_titulo
+    - node.type.docente
+id: node.docente.field_docente_titulo
+field_name: field_docente_titulo
+entity_type: node
+bundle: docente
+label: Título
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

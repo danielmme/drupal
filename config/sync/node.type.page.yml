@@ -1,0 +1,13 @@
+uuid: 8d51e8dd-ec0f-4509-8398-8b06bc3a70ae
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ah4mK_NDusYPBxdq_V6MoiiVp0nWUQSTbdX2knCcow4
+name: 'Página Básica'
+type: page
+description: 'Use paǵina básica para conteúdos estáticos'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

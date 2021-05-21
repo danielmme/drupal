@@ -1,0 +1,22 @@
+uuid: e81f3b14-acdf-4784-92ed-7aa22597f338
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+id: node.estagio.status
+field_name: status
+entity_type: node
+bundle: estagio
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

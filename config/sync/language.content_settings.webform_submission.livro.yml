@@ -1,0 +1,11 @@
+uuid: ce9fa8f4-8385-4813-b0cc-d19a92a57c09
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.livro
+id: webform_submission.livro
+target_entity_type_id: webform_submission
+target_bundle: livro
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: deb037b2-ff7a-4b46-88f2-3f7ce8cb27a6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+id: node.publicacoes.publish_on
+field_name: publish_on
+entity_type: node
+bundle: publicacoes
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

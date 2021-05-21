@@ -1,0 +1,21 @@
+uuid: 83137c8b-b153-4ccd-82c7-93533dba2b0d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cidade
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.field_cidade
+field_name: field_cidade
+entity_type: node
+bundle: publicacoes
+label: Cidade
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

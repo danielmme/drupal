@@ -1,0 +1,23 @@
+uuid: 60d63568-1dd6-49b8-957c-a68f129754a0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_docente_lattes
+    - node.type.docente
+  module:
+    - link
+id: node.docente.field_docente_lattes
+field_name: field_docente_lattes
+entity_type: node
+bundle: docente
+label: Lattes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

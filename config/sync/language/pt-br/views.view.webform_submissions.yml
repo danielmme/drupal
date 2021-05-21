@@ -1,0 +1,141 @@
+label: 'Submissões do webform'
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« Primeiro'
+            last: 'Último »'
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+      fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        created:
+          label: Criado
+          separator: ', '
+        remote_addr:
+          label: 'Endereço IP'
+          separator: ', '
+        view_webform_submission:
+          label: Operações
+          text: ver
+      arguments:
+        in_draft:
+          exception:
+            title: Tudo
+      title: 'Submissões do webform'
+  embed_administer:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Ação
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          label: Destacado
+          separator: ', '
+        locked:
+          label: Travado
+          separator: ', '
+        created:
+          label: Criado
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'Endereço IP'
+          separator: ', '
+        operations:
+          label: Operações
+      filters:
+        sticky:
+          expose:
+            label: Destacado
+        locked:
+          expose:
+            label: Travado
+  embed_manage:
+    display_options:
+      fields:
+        webform_submission_bulk_form:
+          action_title: Ação
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          label: Destacado
+          separator: ', '
+        locked:
+          label: Travado
+          separator: ', '
+        created:
+          label: Criado
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'Endereço IP'
+          separator: ', '
+        view_webform_submission:
+          label: Operações
+          text: ver
+        edit_webform_submission:
+          label: Operações
+          text: editar
+      filters:
+        sticky:
+          expose:
+            label: Destacado
+        locked:
+          expose:
+            label: Travado
+  embed_review:
+    display_options:
+      fields:
+        sid:
+          separator: ', '
+        in_draft:
+          separator: ', '
+        sticky:
+          label: Destacado
+          separator: ', '
+        locked:
+          label: Travado
+          separator: ', '
+        created:
+          label: Criado
+          separator: ', '
+        completed:
+          separator: ', '
+        remote_addr:
+          label: 'Endereço IP'
+          separator: ', '
+        view_webform_submission:
+          label: Operações
+          text: ver
+      filters:
+        sticky:
+          expose:
+            label: Destacado
+        locked:
+          expose:
+            label: Travado

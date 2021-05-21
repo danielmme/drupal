@@ -1,0 +1,19 @@
+uuid: 20d4a9c5-705d-439d-acca-b7caa5a4f361
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - content_translation
+    - user
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: MEd-0MXqAlcY1BZ5RauNcqkvdQlkhgn_YhPqh3saYeo
+id: user.user
+target_entity_type_id: user
+target_bundle: user
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,58 @@
+uuid: a9ef2c7e-4bba-42dc-be10-9a14b51ebf89
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publicacoes.editora
+    - field.field.node.publicacoes.field_ano_publicacao
+    - field.field.node.publicacoes.field_autor
+    - field.field.node.publicacoes.field_autor_livro
+    - field.field.node.publicacoes.field_categoria_do_docente
+    - field.field.node.publicacoes.field_cidade
+    - field.field.node.publicacoes.field_edicao
+    - field.field.node.publicacoes.field_estado
+    - field.field.node.publicacoes.field_nome
+    - field.field.node.publicacoes.field_nome_do_peri
+    - field.field.node.publicacoes.field_paginas
+    - field.field.node.publicacoes.field_tipo_de_publicacao
+    - field.field.node.publicacoes.field_titulo_livro
+    - field.field.node.publicacoes.field_volume
+    - node.type.publicacoes
+  module:
+    - field_layout
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.publicacoes.teaser
+targetEntityType: node
+bundle: publicacoes
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  editora: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_ano_publicacao: true
+  field_autor: true
+  field_autor_livro: true
+  field_categoria_do_docente: true
+  field_cidade: true
+  field_edicao: true
+  field_estado: true
+  field_nome: true
+  field_nome_do_peri: true
+  field_paginas: true
+  field_tipo_de_publicacao: true
+  field_titulo_livro: true
+  field_volume: true
+  langcode: true

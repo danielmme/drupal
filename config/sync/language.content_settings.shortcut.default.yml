@@ -1,0 +1,20 @@
+uuid: e1cdda20-9395-4115-ae03-afb15c02cebe
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: uZgGNQfoqp38Ns1WjF6kw77hcN6WC1hJVJ3XHx5RTwE
+id: shortcut.default
+target_entity_type_id: shortcut
+target_bundle: default
+default_langcode: site_default
+language_alterable: false

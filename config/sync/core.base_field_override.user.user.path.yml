@@ -1,0 +1,19 @@
+uuid: 75bb7f94-4306-48d8-927f-9f7d00c2c88e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - path
+    - user
+id: user.user.path
+field_name: path
+entity_type: user
+bundle: user
+label: 'URL alternativa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

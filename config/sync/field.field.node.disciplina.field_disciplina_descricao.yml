@@ -1,0 +1,21 @@
+uuid: 805997dc-6944-4762-8840-bb128ac8898a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_disciplina_descricao
+    - node.type.disciplina
+  module:
+    - text
+id: node.disciplina.field_disciplina_descricao
+field_name: field_disciplina_descricao
+entity_type: node
+bundle: disciplina
+label: Descrição
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

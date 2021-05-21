@@ -1,0 +1,23 @@
+uuid: d3fa7aec-e29b-4f37-85cb-3496df5b1d93
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: FER62LGVDfEzoxoVOSr9YGD3fAD2mF10IU9pRjBTJEg
+id: dcp_theme_formulariodebusca
+theme: dcp_theme
+region: header
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulário de busca'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

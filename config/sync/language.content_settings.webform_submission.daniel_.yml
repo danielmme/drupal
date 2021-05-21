@@ -1,0 +1,11 @@
+uuid: ea6d4d1a-5a9b-46c3-b934-74ca6f22785d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.daniel_
+id: webform_submission.daniel_
+target_entity_type_id: webform_submission
+target_bundle: daniel_
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+uuid: 9b4d0ae4-146c-490b-96ab-4624bf2c254b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.menu_link
+field_name: menu_link
+entity_type: node
+bundle: disciplina
+label: 'Link de menu'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

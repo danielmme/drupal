@@ -1,0 +1,18 @@
+uuid: d1c09abd-7c22-40ba-92b6-a90d2af86922
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.docente
+id: node.docente.publish_on
+field_name: publish_on
+entity_type: node
+bundle: docente
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

@@ -1,0 +1,292 @@
+uuid: dc3e374c-03df-4f59-af72-d4458ea5eff7
+langcode: pt-br
+status: closed
+dependencies:
+  module:
+    - webform_boleto_usp
+    - webform_entity_print
+third_party_settings:
+  webform_entity_print:
+    template:
+      header: ''
+      footer: ''
+      css: ''
+    export_types:
+      pdf:
+        enabled: true
+        link_text: ''
+        link_attributes: {  }
+open: null
+close: null
+weight: 0
+uid: 5
+template: false
+archive: false
+id: inscricao_para_o_processo_seleti
+title: 'Inscrição para o Processo Seletivo - PPG Ciência Política/USP'
+description: ''
+category: ''
+elements: "declaracao:\n  '#type': checkboxes\n  '#title': Declaração\n  '#description': |\n    <ul>\n    \t<li>\n    \t<h4>Antes de iniciar o preenchimento, fa&ccedil;a a leitura cuidadosa do <a href=\"http://dcp.fflch.usp.br/sites/dcp.fflch.usp.br/files/P%C3%B3s-Gradua%C3%A7%C3%A3o/Sele%C3%A7%C3%A3o%202021/Edital%202021/27%20de%20agosto_edital%202020-2021_ppg_ciencia%20politica_versa%CC%83o%20final_0.pdf\">Edital</a>;</h4>\n    \t</li>\n    \t<li>\n    \t<h4>Ap&oacute;s enviar a inscri&ccedil;&atilde;o, o boleto ser&aacute; emitido para o pagamento at&eacute; 2 de setembro. N&atilde;o &eacute; necess&aacute;rio inserir o comprovante de pagamento.</h4>\n    \t</li>\n    \t<li>\n    \t<h4><span lang=\"PT-BR\" style=\"font-size:11.5pt\"><span style=\"line-height:107%\"><span style=\"font-family:Calibri\">A candidata estrangeira, para fazer a inscri&ccedil;&atilde;o,&nbsp; deve solicitar o CPF <a href=\"https://receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-de-pessoas-fisicas-cpf/servicos/copy_of_inscricao-no-cpf\" style=\"color:#0563c1; text-decoration:underline\">neste link</a>, sem este documento n&atilde;o conseguir&aacute;&nbsp; submeter a inscri&ccedil;&atilde;o e emitir o boleto.</span></span></span></h4>\n    \t</li>\n    </ul>\n    \n    <h4>PROFICI&Ecirc;NCIA:</h4>\n    \n    <ul>\n    \t<li>\n    \t<h4><a href=\"http://dcp.fflch.usp.br/sites/dcp.fflch.usp.br/files/P%C3%B3s-Gradua%C3%A7%C3%A3o/Sele%C3%A7%C3%A3o%202021/Edital%202021/Exame%20de%20Proficie%CC%82ncia_EDITAL%202009%20DCP%20-%20Cie%CC%82ncia%20Poli%CC%81tica.pdf\">Edital do Exame de Profici&ecirc;ncia em L&iacute;ngua Inglesa realizado pelo Centro de L&iacute;nguas/FFLCH</a> (para aquelas que n&atilde;o trouxerem a certifica&ccedil;&atilde;o de outra institui&ccedil;&atilde;o dentre aquelas citadas no edital)</h4>\n    \t</li>\n    </ul>\n    \n  '#options':\n    1: 'Declaro que li e aceito os termos do Edital do Processo Seletivo PPG Ciência Política/USP 2020-2021'\n  '#required': true\nrequerimento_de_inscricao:\n  '#type': fieldset\n  '#title': 'Requerimento de inscrição'\n  nome_completo:\n    '#type': textfield\n    '#title': Candidato\n    '#description': 'Digite o seu nome completo.'\n    '#required': true\n  curso:\n    '#type': select\n    '#title': Curso\n    '#options':\n      1: Mestrado\n      2: Doutorado\n    '#required': true\n  realizou_exame_de_proficiencia_no_ppg_ciencia_politica_nos_ultim:\n    '#type': textfield\n    '#title': 'Realizou Exame de Proficiência no PPG Ciência Política nos últimos 4 anos ? Se \"Sim\", infome o ano.'\n    '#description': 'Digite o seu nome completo.'\n    '#required': true\n  foi_aprovado_na_prova_substantitva_tendo_sido_aprovado_na_selaca:\n    '#type': textfield\n    '#title': 'Foi aprovada na prova substantitva, tendo sido aprovada na seleção do mestrado ou doutorado, nos últimos 4 anos ? Se sim, indique o ano.'\n    '#description': 'Digite o seu nome completo.'\n    '#required': true\npessoa_com_deficiencia_:\n  '#type': checkboxes\n  '#title': 'Pessoa com deficiência?'\n  '#options':\n    1: Sim\n    2: Não\n  '#options_display': two_columns\n  '#required': true\nrequer_algum_recurso_de_acessibilidade_:\n  '#type': checkboxes\n  '#title': 'Requer algum recurso de acessibilidade?'\n  '#options':\n    1: Sim\n    2: Não\n  '#options_display': two_columns\nindique_os_recursos_de_acessibilidade:\n  '#type': textfield\n  '#title': 'Indique os recursos de acessibilidade'\ndados_pessoais:\n  '#type': fieldset\n  '#title': 'Dados Pessoais'\n  data_de_nascimento:\n    '#type': date\n    '#title': 'Data de nascimento'\n    '#required': true\n    '#format': dia_mes_ano\n    '#date_date_format': ''\n  sexo:\n    '#type': select\n    '#title': Sexo\n    '#options':\n      1: Feminino\n      2: Masculino\n    '#required': true\n  cpf1:\n    '#type': textfield\n    '#title': CPF\n    '#size': 16\n    '#required': true\n  nome_da_mae:\n    '#type': textfield\n    '#title': 'Nome da mãe'\n    '#required': true\n  nome_do_pai:\n    '#type': textfield\n    '#title': 'Nome do pai'\n  local_de_nascimento:\n    '#type': webform_custom_composite\n    '#title': 'Local de nascimento'\n    '#element':\n      1:\n        '#type': textfield\n        '#required': true\n        '#title': Cidade\n      2:\n        '#type': textfield\n        '#required': true\n        '#title': UF\n      3:\n        '#type': textfield\n        '#title': País\n  nacionalidade:\n    '#type': textfield\n    '#title': Nacionalidade\n    '#required': true\n  documento_de_identidade:\n    '#type': select\n    '#title': 'Documento de identidade'\n    '#description': 'Se voc&ecirc; escolheu o passaporte, lembre-se que voc&ecirc; dever&aacute; apresentar o n&uacute;mero do RNE at&eacute; a data da matr&iacute;cula (01/02/2018). Caso contr&aacute;rio, voc&ecirc; ser&aacute; desligado automaticamente.'\n    '#options':\n      1: RG\n      2: 'RNE (Registro Nacional de Estrangeiros)'\n      3: Passaporte\n    '#required': true\n  numero_do_documento:\n    '#type': textfield\n    '#title': 'Número do documento'\n    '#required': true\n  data_de_expedicao_do_documento:\n    '#type': date\n    '#title': 'Data de expedição do documento'\n    '#date_date_format': ''\n  orgao_expedidor_ssp_dpf_etc_:\n    '#type': textfield\n    '#title': 'Órgão expedidor (SSP, DPF, etc.)'\n  data_de_validade_do_documento:\n    '#type': date\n    '#title': 'Data de validade do documento'\n    '#date_date_format': ''\n  ufdocumento:\n    '#type': select\n    '#title': UF\n    '#options':\n      RO: RO\n      AC: AC\n      AM: AM\n      RR: RR\n      PA: PA\n      AP: AP\n      TO: TO\n      MA: MA\n      PI: PI\n      CE: CE\n      RN: RN\n      PB: PB\n      PE: PE\n      AL: AL\n      SE: SE\n      BA: BA\n      MG: MG\n      ES: ES\n      RJ: RJ\n      SP: SP\n      PR: PR\n      SC: SC\n      RS: RS\n      MS: MS\n      MT: MT\n      GO: GO\n      DF: DF\n  endereco:\n    '#type': webform_address\n    '#title': Endereço\n    '#title_display': ''\n    '#address__title': 'Logradouro (Rua, Avenida, Praça, etc.)'\n    '#address_2__title': Bairro\n    '#city__title': Cidade\n    '#state_province__title': UF\n    '#state_province__type': textfield\n    '#postal_code__title': CEP\n  telefones:\n    '#type': webform_telephone\n    '#title': Telefones\n    '#type__help': '(Celular, Residencial, Escritório, contato)'\n    '#type__type': textfield\n    '#phone__title': Número\n    '#ext__access': false\n    '#phone__international_initial_country': BR\n  email:\n    '#type': email\n    '#title': Email\n    '#required': true\ndados_sobre_a_graduacao:\n  '#type': webform_section\n  '#title': 'Dados sobre a Graduação'\n  nome_da_instituicao:\n    '#type': textfield\n    '#title': 'Nome da instituição'\n    '#required': true\n  data_da_conclusao:\n    '#type': date\n    '#title': 'Data da conclusão'\n    '#description': 'ou da cola&ccedil;&atilde;o de grau'\n    '#required': true\n    '#date_date_format': ''\n  titulo_obtido:\n    '#type': textfield\n    '#title': 'Título obtido'\n    '#description': '(Ex.: bacharem em ..., licenciado em ...)'\n    '#required': true\n  pais:\n    '#type': webform_address\n    '#title': País\n    '#address__access': false\n    '#address_2__access': false\n    '#city__access': false\n    '#state_province__access': false\n    '#postal_code__access': false\ndados_sobre_o_mestrado:\n  '#type': webform_section\n  '#title': 'Dados sobre o Mestrado'\n  nome_da_instituicao_me:\n    '#type': textfield\n    '#title': 'Nome da instituição'\n  data_da_conclusao_me:\n    '#type': date\n    '#title': 'Data da conclusão'\n    '#date_date_format': ''\n  titulo_obtido_me:\n    '#type': textfield\n    '#title': 'Título obtido'\n  pais_me:\n    '#type': webform_address\n    '#title': País\n    '#address__access': false\n    '#address_2__access': false\n    '#city__access': false\n    '#state_province__access': false\n    '#postal_code__access': false\nanexos:\n  '#type': webform_section\n  '#title': Anexos\n  atestado_de_proficiencia:\n    '#type': managed_file\n    '#title': 'Atestado de proficiência'\n    '#file_placeholder': |\n      <ul>\n      \t<li>Anexar somente os arquivos que contenham os comprovantes das institui&ccedil;&otilde;es listadas no Edital;</li>\n      \t<li>Para quem for realizar a Prova no Centro de L&iacute;nguas, fa&ccedil;a uma declara&ccedil;&atilde;o de que ir&aacute; fazer a prova no Centro de L&iacute;nguas;</li>\n      </ul>\n      \n    '#max_filesize': '2'\n    '#file_extensions': pdf\n  curriculo_lattes_:\n    '#type': managed_file\n    '#title': 'Currículo (lattes)'\n    '#required': true\n    '#max_filesize': '4'\n    '#file_extensions': pdf\n  documento_de_identidade1:\n    '#type': managed_file\n    '#title': 'Documento de identidade'\n    '#required': true\n    '#max_filesize': '2'\n    '#file_extensions': 'jpg png pdf'\n  cpf:\n    '#type': managed_file\n    '#title': CPF\n    '#max_filesize': '2'\n    '#file_extensions': 'jp gpng pdf'\n  autodeclaracao_etnico_racial:\n    '#type': managed_file\n    '#title': 'Autodeclaração étnico-racial'\n    '#max_filesize': '2'\n    '#file_extensions': 'pdf doc docx'\n  diploma_de_graduacao:\n    '#type': managed_file\n    '#title': 'Diploma de graduação'\n    '#file_placeholder': 'Frente / verso'\n    '#max_filesize': '3'\n    '#file_extensions': 'jpg pdf'\n  historico_escolar_da_graduacao:\n    '#type': managed_file\n    '#title': 'Histórico escolar da graduação'\n    '#max_filesize': '4'\n    '#file_extensions': 'jpg pdf'\n  trabalho_de_conclusao_de_curso_ou_relevante:\n    '#type': managed_file\n    '#title': 'Trabalho de Conclusão de Curso ou relevante'\n    '#multiple': true\n  diploma_de_mestre:\n    '#type': managed_file\n    '#title': 'Diploma de mestre'\n    '#file_placeholder': 'Frente / verso'\n    '#max_filesize': '3'\n    '#file_extensions': 'jpg pdf'\n  historico_mestrado:\n    '#type': managed_file\n    '#title': 'Histórico mestrado'\n    '#max_filesize': '4'\n    '#file_extensions': 'jpg pdf'\n  dissertacao_de_mestrado:\n    '#type': managed_file\n    '#title': 'Dissertação de Mestrado'\n    '#multiple': true\n  termo_de_compromisso_de_graduacao:\n    '#type': managed_file\n    '#title': 'Termo de Compromisso de Graduação'\n  termo_de_compromisso_de_mestrado:\n    '#type': managed_file\n    '#title': 'Termo de Compromisso de Mestrado'\n  declaracao_de_conclusao_de_mestrado_usp:\n    '#type': managed_file\n    '#title': 'Declaração de conclusão de Mestrado (concluído na USP)'\nanexo_2:\n  '#type': webform_section\n  '#title': 'Anexo 3'\n  estagios_no_mestrado_doutorado:\n    '#type': managed_file\n    '#title': 'Estágios no Mestrado/Doutorado'\n  servidor_publico:\n    '#type': managed_file\n    '#title': 'Servidor Público'\n  iniciacao_cientifica:\n    '#type': managed_file\n    '#title': 'Iniciação Científica'\n  participacao_em_eventos:\n    '#type': managed_file\n    '#title': 'Participação em eventos'\n    '#multiple': true\n  estudo_no_exterior_intercambio:\n    '#type': managed_file\n    '#title': 'Estudo no exterior/Intercâmbio'\n    '#multiple': true\n  publicacoes_doutorado_:\n    '#type': managed_file\n    '#title': 'Publicações (Doutorado)'\n    '#multiple': true\nboletousp:\n  '#type': boletousp\n  '#boletousp_codigoFonteRecurso': '434'\n  '#boletousp_estruturaHierarquica': \\FFLCH\\ATAC\\SVALPGR\n  '#boletousp_dataVencimentoBoleto': '2020-09-04'\n  '#boletousp_informacoesBoletoSacado': 'Inscrição ao Processo Seletivo - Ciência Política'\n  '#boletousp_instrucoesObjetoCobranca': 'Não receber depois de vencido'\n  '#boletousp_valorDocumento': '80,00'\n  '#boletousp_codigoEmail': email\n  '#boletousp_nomeSacado': nome_completo\n  '#boletousp_cpfCnpj': cpf1"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: ''
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_theme_name: ''
+  form_title: source_entity_webform
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_disable_remote_addr: false
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_auto_forward: true
+  wizard_auto_forward_hide_next_button: false
+  wizard_keyboard: true
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: true
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: 'Inscri&ccedil;&#39;ao recebida. <a href="/boleto/[webform_submission:sid]">Imprimir boleto</a>.'
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+  token_delete: false
+  serial_disabled: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  e_mail:
+    id: email
+    label: 'E-mail Candidata'
+    notes: ''
+    handler_id: e_mail
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: '[webform_submission:values:email:raw]'
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: 'Inscrição para o Processo Seletivo no Programa de Ciência Política '
+      body: "Sua inscri&ccedil;&atilde;o para o Processo Seletivo do Programa de Ci&ecirc;ncia Pol&iacute;tica/USP foi recebida e ser&aacute; encaminhada para confer&ecirc;ncia.<br />\r\n&lt;br&gt;<br />\r\nEste &eacute; o protocolo cuja numera&ccedil;&atilde;o a partir de agora ser&aacute; sua identifica&ccedil;&atilde; como candidata&nbsp;[webform_submission:sid]"
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      exclude_attachments: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
+      parameters: {  }
+  e_mail_1:
+    id: email
+    label: E-mail
+    notes: ''
+    handler_id: e_mail_1
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: '[webform_submission:values:email:raw]'
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: _default
+      body: 'Inscri&ccedil;&#39;ao recebida. <a href="/boleto/[webform_submission:sid]">Imprimir boleto</a>'
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      exclude_attachments: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
+      parameters: {  }
+  webform_boleto_usp_validator:
+    id: webform_boleto_usp_validator
+    label: validations
+    notes: ''
+    handler_id: webform_boleto_usp_validator
+    status: true
+    conditions: {  }
+    weight: 0
+    settings: {  }
+variants: {  }

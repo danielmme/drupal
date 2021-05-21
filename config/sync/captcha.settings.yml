@@ -1,0 +1,13 @@
+default_challenge: image_captcha/Image
+description: ''
+administration_mode: false
+allow_on_admin_pages: false
+add_captcha_description: false
+default_validation: 0
+persistence: null
+enable_stats: false
+log_wrong_responses: false
+_core:
+  default_config_hash: pfrv6lPS72f5WG1UB4wHkgQV2invlHwVpaCy_mY-ClQ
+langcode: pt-br
+enabled_default: 0

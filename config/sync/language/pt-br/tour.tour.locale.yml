@@ -1,0 +1,24 @@
+label: Tradução
+tips:
+  locale-overview:
+    label: 'Tradução da interface do usuário'
+  locale-language:
+    label: 'Idioma da tradução'
+    body: 'Escolha o idioma para o qual você quer traduzir.'
+  locale-search:
+    label: Buscar
+    body: 'Informe a palavra ou sentença específica que você gostaria de traduzir, você pode também escrever apenas uma parte da palavra.'
+  locale-filter:
+    label: 'Filtrar a busca'
+    body: 'Você pode procurar strings não traduzidas se quiser traduzir algo que ainda não foi traduzido. Se você deseja modificar uma tradução existente, você pode querer pesquisar somente por strings traduzidas.'
+  locale-submit:
+    label: 'Aplicar seu critério de busca'
+    body: 'Para aplicar seu critério de busca, clique no botão <em>Filtrar</em>.'
+  locale-translate:
+    label: Traduzir
+    body: 'Você pode escrever suas próprias traduções nos campos de texto da coluna da direita. Tente descobrir em qual contexto o texto será usado para que a tradução seja feita de forma correta.'
+  locale-validate:
+    label: 'Validar a tradução'
+    body: 'Quando tiver terminado suas traduções, clique no botão <em>Salvar traduções</em>. Você deve salvar suas traduções toda vez antes de mudar de página ou fizer uma nova busca.'
+  locale-continue:
+    label: Continuando

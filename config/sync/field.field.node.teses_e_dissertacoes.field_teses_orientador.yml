@@ -1,0 +1,28 @@
+uuid: 021a7cc0-5538-453d-8f69-955cea5418ac
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teses_orientador
+    - node.type.docente
+    - node.type.teses_e_dissertacoes
+id: node.teses_e_dissertacoes.field_teses_orientador
+field_name: field_teses_orientador
+entity_type: node
+bundle: teses_e_dissertacoes
+label: Orientador
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      docente: docente
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,18 @@
+uuid: fd6c786d-befd-481c-9ed8-e158492e77a4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.estagio
+target_entity_type_id: node
+target_bundle: estagio
+default_langcode: site_default
+language_alterable: false

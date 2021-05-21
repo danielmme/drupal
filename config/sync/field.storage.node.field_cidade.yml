@@ -1,0 +1,20 @@
+uuid: 3b79382f-65b3-4328-b8fe-570964c3513f
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_cidade
+field_name: field_cidade
+entity_type: node
+type: text
+settings:
+  max_length: 150
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

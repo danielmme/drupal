@@ -1,0 +1,20 @@
+uuid: 70779b73-29b0-4fb9-a86c-5948c6e1f921
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_paginas
+field_name: field_paginas
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

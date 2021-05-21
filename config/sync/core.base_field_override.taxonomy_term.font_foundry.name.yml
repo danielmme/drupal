@@ -1,0 +1,18 @@
+uuid: 107f8645-172d-4df7-9d0a-9edc3dbec619
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_foundry
+id: taxonomy_term.font_foundry.name
+field_name: name
+entity_type: taxonomy_term
+bundle: font_foundry
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

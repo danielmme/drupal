@@ -1,0 +1,11 @@
+uuid: c84ebf41-e688-429f-948d-d316fbc89e75
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.capitulo_de_livro
+id: webform_submission.capitulo_de_livro
+target_entity_type_id: webform_submission
+target_bundle: capitulo_de_livro
+default_langcode: site_default
+language_alterable: false

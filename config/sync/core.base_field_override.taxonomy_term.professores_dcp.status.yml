@@ -1,0 +1,22 @@
+uuid: 83f00499-69b3-48c3-819c-1a7b52cda965
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.professores_dcp
+id: taxonomy_term.professores_dcp.status
+field_name: status
+entity_type: taxonomy_term
+bundle: professores_dcp
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 37fc2bea-98ac-434b-bce5-a1a360e32bc3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_livro
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.field_autor_livro
+field_name: field_autor_livro
+entity_type: node
+bundle: publicacoes
+label: 'Autor do Livro'
+description: '(preencher somente quando se tratar de capítulo)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,18 @@
+uuid: c801e24f-29b2-4260-b452-f1f3444fd517
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+id: node.estagio.changed
+field_name: changed
+entity_type: node
+bundle: estagio
+label: Alterado
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,23 @@
+uuid: 8ae2e303-09c5-4942-bf6d-e3892630cf58
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano_publicacao
+    - node.type.publicacoes
+id: node.publicacoes.field_ano_publicacao
+field_name: field_ano_publicacao
+entity_type: node
+bundle: publicacoes
+label: 'Ano de publicação'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

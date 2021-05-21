@@ -1,0 +1,29 @@
+uuid: cadd371c-3806-417b-b923-5c9813aab2cd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pesquisa_autor
+    - node.type.pesquisa
+    - taxonomy.vocabulary.autor
+id: node.pesquisa.field_pesquisa_autor
+field_name: field_pesquisa_autor
+entity_type: node
+bundle: pesquisa
+label: Autor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      autor: autor
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

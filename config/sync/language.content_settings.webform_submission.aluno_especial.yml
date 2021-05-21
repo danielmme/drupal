@@ -1,0 +1,11 @@
+uuid: f3a12272-72e9-4601-8ff4-d02d510cb8cc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.aluno_especial
+id: webform_submission.aluno_especial
+target_entity_type_id: webform_submission
+target_bundle: aluno_especial
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: abe89179-ca36-4804-b194-5701c8acca20
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+id: taxonomy_term.languages_supported.status
+field_name: status
+entity_type: taxonomy_term
+bundle: languages_supported
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

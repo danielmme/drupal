@@ -1,0 +1,27 @@
+uuid: 7df07f5d-a5b4-49ef-8847-bca481afbbbe
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_disciplina_tipo
+field_name: field_disciplina_tipo
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: graduacao
+      label: Graduação
+    -
+      value: pos
+      label: Pós-Graduação
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

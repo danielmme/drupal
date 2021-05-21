@@ -1,0 +1,19 @@
+uuid: 7285184c-46af-452f-94e2-a54d3b48aeb5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_docente_email
+    - node.type.docente
+id: node.docente.field_docente_email
+field_name: field_docente_email
+entity_type: node
+bundle: docente
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

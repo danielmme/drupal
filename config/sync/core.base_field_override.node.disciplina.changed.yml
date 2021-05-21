@@ -1,0 +1,18 @@
+uuid: c474ce6c-e495-4887-9893-b621d3f956c6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.changed
+field_name: changed
+entity_type: node
+bundle: disciplina
+label: Alterado
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

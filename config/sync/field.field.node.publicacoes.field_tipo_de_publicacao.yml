@@ -1,0 +1,21 @@
+uuid: c5c9c48d-ca4f-4d68-a8d5-9959dd489b1e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_publicacao
+    - node.type.publicacoes
+  module:
+    - options
+id: node.publicacoes.field_tipo_de_publicacao
+field_name: field_tipo_de_publicacao
+entity_type: node
+bundle: publicacoes
+label: 'Tipo de publicação'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

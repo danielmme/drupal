@@ -1,0 +1,11 @@
+uuid: a838079b-9345-431e-b6e8-e2c772b792c0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.pesquisa
+id: node.pesquisa
+target_entity_type_id: node
+target_bundle: pesquisa
+default_langcode: site_default
+language_alterable: false

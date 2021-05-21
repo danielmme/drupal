@@ -1,0 +1,22 @@
+uuid: 8c5a1013-15d3-4d5c-a13f-33f94b5a543e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_tags
+id: taxonomy_term.font_tags.status
+field_name: status
+entity_type: taxonomy_term
+bundle: font_tags
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

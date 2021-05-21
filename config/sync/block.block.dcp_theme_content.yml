@@ -1,0 +1,22 @@
+uuid: 400c7298-498c-4eee-af62-58d6ad47c9bb
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: UFnTA1mVOK3IZ4yMB591WJFg2qhVZJBnp60nfK1cCKY
+id: dcp_theme_content
+theme: dcp_theme
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  provider: system
+  label_display: '0'
+visibility: {  }

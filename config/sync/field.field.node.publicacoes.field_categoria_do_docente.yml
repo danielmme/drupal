@@ -1,0 +1,21 @@
+uuid: d99d6cb5-1a4e-4bd9-aeb5-24f2e04b226f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria_do_docente
+    - node.type.publicacoes
+  module:
+    - options
+id: node.publicacoes.field_categoria_do_docente
+field_name: field_categoria_do_docente
+entity_type: node
+bundle: publicacoes
+label: 'Categoria do docente'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

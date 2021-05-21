@@ -1,0 +1,10 @@
+uuid: ff3f72ea-a94b-4730-af2b-6251d9a93fca
+langcode: pt-br
+status: true
+dependencies: {  }
+id: autor
+label: Autor
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

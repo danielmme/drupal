@@ -1,0 +1,8 @@
+uuid: null
+langcode: pt-br
+status: true
+dependencies: {  }
+id: dia_mes_ano
+label: dia/mes/ano
+locked: false
+pattern: d/m/Y

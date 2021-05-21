@@ -1,0 +1,22 @@
+uuid: 06846191-bcb1-42dd-bf2a-1ef29a45e8bb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+id: node.estagio.promote
+field_name: promote
+entity_type: node
+bundle: estagio
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

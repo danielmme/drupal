@@ -1,0 +1,19 @@
+uuid: 25449b66-7852-4765-83db-931e41bb0fe3
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_docente_lattes
+field_name: field_docente_lattes
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

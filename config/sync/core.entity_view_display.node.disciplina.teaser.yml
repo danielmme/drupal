@@ -1,0 +1,34 @@
+uuid: f7098af8-ccfd-47a1-8d8b-2fd8599e4034
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.disciplina.field_disciplina_descricao
+    - field.field.node.disciplina.field_disciplina_imagem
+    - field.field.node.disciplina.field_disciplina_professores
+    - field.field.node.disciplina.field_disciplina_sigla
+    - field.field.node.disciplina.field_disciplina_tipo
+    - node.type.disciplina
+  module:
+    - user
+id: node.disciplina.teaser
+targetEntityType: node
+bundle: disciplina
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_disciplina_descricao: true
+  field_disciplina_imagem: true
+  field_disciplina_professores: true
+  field_disciplina_sigla: true
+  field_disciplina_tipo: true
+  langcode: true

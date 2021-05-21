@@ -1,0 +1,23 @@
+uuid: 00eb18ee-701f-4ff1-a048-ce443d5e1e0d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aluno_lattes
+    - node.type.aluno
+  module:
+    - link
+id: node.aluno.field_aluno_lattes
+field_name: field_aluno_lattes
+entity_type: node
+bundle: aluno
+label: Lattes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

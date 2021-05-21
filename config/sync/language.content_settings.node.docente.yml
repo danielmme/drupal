@@ -1,0 +1,18 @@
+uuid: 16e3d099-7fe6-43d8-91a5-cd6f1400e795
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.docente
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.docente
+target_entity_type_id: node
+target_bundle: docente
+default_langcode: site_default
+language_alterable: false

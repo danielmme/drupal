@@ -1,0 +1,22 @@
+uuid: 270e06a7-611c-44ed-9892-620ccfda5aa9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.sticky
+field_name: sticky
+entity_type: node
+bundle: disciplina
+label: 'Destacado no topo da página'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

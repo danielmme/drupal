@@ -1,0 +1,9 @@
+uuid: 5724b9aa-9a34-43a5-9fe4-c295013a7a61
+langcode: pt-br
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: 1
+locked: false

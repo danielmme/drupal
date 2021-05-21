@@ -1,0 +1,22 @@
+uuid: 34aa98d9-b999-4d0a-a7a3-dffeccd334a9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+id: node.publicacoes.promote
+field_name: promote
+entity_type: node
+bundle: publicacoes
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

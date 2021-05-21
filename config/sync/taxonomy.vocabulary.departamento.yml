@@ -1,0 +1,8 @@
+uuid: ee73d065-7424-4686-9b59-2d78c6379a0a
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Departamento
+vid: departamento
+description: ''
+weight: 0

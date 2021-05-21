@@ -1,0 +1,18 @@
+uuid: 26580e24-aede-42b7-bc24-5939915d5aca
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+id: taxonomy_term.languages_supported.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: languages_supported
+label: Alterado
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

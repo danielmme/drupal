@@ -1,0 +1,11 @@
+uuid: 9c37c14a-8b3e-45fd-89b2-e3cbc941c0f8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.template_registration
+id: webform_submission.template_registration
+target_entity_type_id: webform_submission
+target_bundle: template_registration
+default_langcode: site_default
+language_alterable: false

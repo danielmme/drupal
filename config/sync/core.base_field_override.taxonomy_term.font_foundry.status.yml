@@ -1,0 +1,22 @@
+uuid: 03bb3abe-199b-4157-9053-e4fa65f000f4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_foundry
+id: taxonomy_term.font_foundry.status
+field_name: status
+entity_type: taxonomy_term
+bundle: font_foundry
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: 7497eedb-32f7-4525-845b-402bb8ed32cb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+id: node.publicacoes.menu_link
+field_name: menu_link
+entity_type: node
+bundle: publicacoes
+label: 'Link de menu'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

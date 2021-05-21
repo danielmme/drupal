@@ -1,0 +1,18 @@
+uuid: 3257b2cd-bc56-448e-b443-020111cfaeda
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+id: node.estagio.publish_on
+field_name: publish_on
+entity_type: node
+bundle: estagio
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

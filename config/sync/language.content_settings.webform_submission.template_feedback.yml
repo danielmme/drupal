@@ -1,0 +1,11 @@
+uuid: 9f9d852a-11cd-4ccb-adfc-9e16433fe8f1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.template_feedback
+id: webform_submission.template_feedback
+target_entity_type_id: webform_submission
+target_bundle: template_feedback
+default_langcode: site_default
+language_alterable: false

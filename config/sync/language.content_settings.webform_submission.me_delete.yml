@@ -1,0 +1,11 @@
+uuid: d74115d8-57b1-47be-a9f4-00ed91a29e8c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.me_delete
+id: webform_submission.me_delete
+target_entity_type_id: webform_submission
+target_bundle: me_delete
+default_langcode: site_default
+language_alterable: false

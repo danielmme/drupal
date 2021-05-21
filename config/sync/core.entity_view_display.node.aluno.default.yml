@@ -1,0 +1,74 @@
+uuid: 1bb5b1d4-fc42-45f9-a7a9-3e8127c341e1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.aluno.field_aluno_biografia
+    - field.field.node.aluno.field_aluno_departamento
+    - field.field.node.aluno.field_aluno_email
+    - field.field.node.aluno.field_aluno_foto
+    - field.field.node.aluno.field_aluno_lattes
+    - node.type.aluno
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.aluno.default
+targetEntityType: node
+bundle: aluno
+mode: default
+content:
+  field_aluno_biografia:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_aluno_departamento:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_aluno_email:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_aluno_foto:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_aluno_lattes:
+    weight: 103
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

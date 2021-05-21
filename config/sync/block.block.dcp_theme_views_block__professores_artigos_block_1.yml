@@ -1,0 +1,32 @@
+uuid: 8b40b911-e33c-4c1c-857c-be7b3cc7568b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.professores_artigos
+  module:
+    - ctools
+    - views
+  theme:
+    - dcp_theme
+id: dcp_theme_views_block__professores_artigos_block_1
+theme: dcp_theme
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:professores_artigos-block_1'
+settings:
+  id: 'views_block:professores_artigos-block_1'
+  label: PERIÓDICOS
+  provider: views
+  label_display: visible
+  views_label: PERIÓDICOS
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      docente: docente
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

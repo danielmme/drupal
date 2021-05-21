@@ -1,0 +1,342 @@
+uuid: f856a9fd-c04f-414b-b4c7-3758a4168935
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.publicacoes.editora
+    - field.field.node.publicacoes.field_ano_publicacao
+    - field.field.node.publicacoes.field_autor
+    - field.field.node.publicacoes.field_autor_livro
+    - field.field.node.publicacoes.field_categoria_do_docente
+    - field.field.node.publicacoes.field_cidade
+    - field.field.node.publicacoes.field_edicao
+    - field.field.node.publicacoes.field_estado
+    - field.field.node.publicacoes.field_nome
+    - field.field.node.publicacoes.field_nome_do_peri
+    - field.field.node.publicacoes.field_paginas
+    - field.field.node.publicacoes.field_tipo_de_publicacao
+    - field.field.node.publicacoes.field_titulo_livro
+    - field.field.node.publicacoes.field_volume
+    - node.type.publicacoes
+  module:
+    - conditional_fields
+    - field_layout
+    - layout_discovery
+    - path
+    - scheduler
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.publicacoes.default
+targetEntityType: node
+bundle: publicacoes
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  editora:
+    third_party_settings:
+      conditional_fields:
+        acf92d54-31a5-4dd7-8d19-f40a0c01b0b5:
+          dependee: field_tipo_de_publicacao
+          settings:
+            state: '!visible'
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: '3'
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: publicacoes
+    weight: 134
+    settings:
+      size: 60
+      placeholder: ''
+    type: text_textfield
+    region: content
+  field_ano_publicacao:
+    weight: 124
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_autor:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_autor_livro:
+    weight: 129
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        ccbcc9cf-0475-4d59-9688-93215fff4136:
+          dependee: field_tipo_de_publicacao
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: '2'
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: publicacoes
+    type: text_textfield
+    region: content
+  field_categoria_do_docente:
+    weight: 137
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_cidade:
+    weight: 127
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_edicao:
+    weight: 131
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        82e3b953-8587-4183-aa20-18055231383b:
+          dependee: field_tipo_de_publicacao
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: '3'
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: publicacoes
+    type: text_textfield
+    region: content
+  field_estado:
+    weight: 126
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_nome:
+    weight: 136
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_nome_do_peri:
+    weight: 130
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        55444962-a8aa-4eb5-9c2e-ef6c3098ddba:
+          dependee: field_tipo_de_publicacao
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: '3'
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: publicacoes
+    type: text_textfield
+    region: content
+  field_paginas:
+    weight: 133
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        74d1f07e-7e5f-403f-a3a6-a771af523755:
+          dependee: field_tipo_de_publicacao
+          settings:
+            state: '!visible'
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: '1'
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: publicacoes
+    type: text_textfield
+    region: content
+  field_tipo_de_publicacao:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_titulo_livro:
+    weight: 128
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        13f5da53-a5e0-4787-bac6-ef42f65df438:
+          dependee: field_tipo_de_publicacao
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: '2'
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: publicacoes
+    type: text_textfield
+    region: content
+  field_volume:
+    weight: 132
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        59e33b89-4dad-4952-8609-4e69fe6dda37:
+          dependee: field_tipo_de_publicacao
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: '3'
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: publicacoes
+    type: text_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  publish_on:
+    type: datetime_timestamp_no_default
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  unpublish_on:
+    type: datetime_timestamp_no_default
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

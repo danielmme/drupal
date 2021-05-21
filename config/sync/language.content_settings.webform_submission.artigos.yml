@@ -1,0 +1,11 @@
+uuid: 4e93b977-453c-4ca3-8c44-107f10961593
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.artigos
+id: webform_submission.artigos
+target_entity_type_id: webform_submission
+target_bundle: artigos
+default_langcode: site_default
+language_alterable: false

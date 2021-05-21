@@ -1,0 +1,163 @@
+uuid: null
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+    - ckeditor_bgimage
+    - editor_file
+third_party_settings:
+  editor_file:
+    status: true
+    scheme: public
+    directory: inline-files
+    extensions: 'txt doc docx xls xlsx odt ods odp ppt pptx pdf'
+    max_size: '10 MB'
+  ckeditor_bgimage:
+    status: true
+    scheme: public
+    directory: inline-files
+    extensions: 'png jpg'
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Maximize
+            - Undo
+            - Redo
+            - Cut
+            - Bold
+            - Italic
+            - Underline
+            - Strike
+            - Superscript
+            - Subscript
+            - '-'
+            - RemoveFormat
+            - Blockquote
+            - Language
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+            - Font
+            - FontSize
+        -
+          name: Fonte
+          items:
+            - TextColor
+            - BGColor
+            - SpecialChar
+      -
+        -
+          name: Avançados
+          items:
+            - tokenbrowser
+            - ShowBlocks
+        -
+          name: Linking
+          items:
+            - Gallery
+            - ImceImage
+            - DrupalImage
+            - DrupalLink
+            - Link
+            - DrupalUnlink
+            - DrupalFile
+            - Anchor
+            - Youtube
+        -
+          name: Listas
+          items:
+            - Outdent
+            - Indent
+            - BulletedList
+            - NumberedList
+            - HorizontalRule
+      -
+        -
+          name: Tabelas
+          items:
+            - Table
+            - tableinsert
+            - tabledelete
+            - tableproperties
+            - tablerowinsertbefore
+            - tablerowinsertafter
+            - tablecolumninsertbefore
+            - tablecolumninsertafter
+            - tablecellinsertbefore
+            - tablecellsmerge
+            - tablecellmergedown
+            - tablecellsplithorizontal
+            - tablecellsplitvertical
+            - tablecolumndelete
+            - tablecellmergeright
+            - tablecellproperties
+            - tablecelldelete
+            - tablecellinsertafter
+            - tablerowdelete
+      -
+        -
+          name: Extras
+          items:
+            - bootstrapTabs
+            - Boxout
+            - DrupalFontAwesome
+            - Accordion
+            - btn_readmore
+        -
+          name: Alinhamento
+          items:
+            - WidgetTemplateMenu
+            - JustifyLeft
+            - JustifyBlock
+            - JustifyRight
+            - JustifyCenter
+            - widgetbootstrapLeftCol
+            - widgetbootstrapTwoCol
+            - widgetbootstrapThreeCol
+            - widgetbootstrapRightCol
+      -
+        -
+          name: code
+          items:
+            - Source
+            - Markdown
+            - insert_view_adv
+            - Resize
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: all
+    font:
+      font_names: ''
+      font_sizes: ''
+    readmore:
+      type: text
+      more_text: 'Read more'
+      less_text: 'Show less'
+    colorbutton:
+      colors: ''
+    editoradvancedimage:
+      default_class: ''
+    insert_view_adv:
+      enable_live_preview: true
+    tokenbrowser:
+      token_types: {  }
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

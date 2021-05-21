@@ -1,0 +1,9 @@
+allowed_types:
+  - book
+block:
+  navigation:
+    mode: 'all pages'
+child_type: book
+langcode: pt-br
+_core:
+  default_config_hash: lVv2M7nehUYPzGhA6-XJDyMRtG2wVEUTlp1uVJDEsoY

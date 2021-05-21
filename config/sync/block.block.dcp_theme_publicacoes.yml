@@ -1,0 +1,30 @@
+uuid: b10bbbcb-35f1-48d5-8d53-d111731b9e21
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - dcp_theme
+id: dcp_theme_publicacoes
+theme: dcp_theme
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:e91532c3-ee12-4f99-88d0-2692afff3623'
+settings:
+  id: 'block_content:e91532c3-ee12-4f99-88d0-2692afff3623'
+  label: PUBLICAÇÕES
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      docente: docente
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

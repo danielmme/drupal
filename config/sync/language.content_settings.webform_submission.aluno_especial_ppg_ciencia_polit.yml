@@ -1,0 +1,11 @@
+uuid: 6ac80caa-cee3-44cd-8ecc-172d2fa6ca66
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.aluno_especial_ppg_ciencia_polit
+id: webform_submission.aluno_especial_ppg_ciencia_polit
+target_entity_type_id: webform_submission
+target_bundle: aluno_especial_ppg_ciencia_polit
+default_langcode: site_default
+language_alterable: false

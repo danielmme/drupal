@@ -1,0 +1,18 @@
+uuid: 2a7e9a9f-2e21-41a9-9b65-b085724253fc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.title
+field_name: title
+entity_type: node
+bundle: disciplina
+label: 'Nome da disciplina'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

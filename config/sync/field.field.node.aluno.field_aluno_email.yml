@@ -1,0 +1,19 @@
+uuid: 5b306c69-60a8-4c33-aa63-cb08e8b2d787
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aluno_email
+    - node.type.aluno
+id: node.aluno.field_aluno_email
+field_name: field_aluno_email
+entity_type: node
+bundle: aluno
+label: E-mail
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

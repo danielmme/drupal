@@ -1,0 +1,22 @@
+uuid: 13edbe5e-a5b2-449b-8e73-478845ec67db
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: XIpgBE_KKvbMzk7H7Z82FIPsMuqGp4OgIE9BauDd3ME
+id: dcp_theme_help
+theme: dcp_theme
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

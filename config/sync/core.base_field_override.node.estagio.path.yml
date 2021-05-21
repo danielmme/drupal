@@ -1,0 +1,20 @@
+uuid: 08388d28-31f4-4b51-a4c2-8da4ff09e106
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.estagio
+  module:
+    - path
+id: node.estagio.path
+field_name: path
+entity_type: node
+bundle: estagio
+label: 'URL alternativa'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

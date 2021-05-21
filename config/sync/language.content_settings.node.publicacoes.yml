@@ -1,0 +1,18 @@
+uuid: ebe2c497-ad1c-423d-be33-5156f3bbd4d8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.publicacoes
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.publicacoes
+target_entity_type_id: node
+target_bundle: publicacoes
+default_langcode: site_default
+language_alterable: false

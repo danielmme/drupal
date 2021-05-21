@@ -1,0 +1,22 @@
+uuid: 513c4663-d044-47f7-87ab-56987d8dd09a
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: L0uY-ZNab9CVpzcsa5_yCmMgB_Ab2_eNBdiPJXxklfg
+id: dcp_theme_local_tasks
+theme: dcp_theme
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Abas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

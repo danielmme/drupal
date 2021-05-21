@@ -1,0 +1,18 @@
+uuid: 45dd65f5-fd7d-43b6-84e9-826a359f533f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.professores_dcp
+id: taxonomy_term.professores_dcp.name
+field_name: name
+entity_type: taxonomy_term
+bundle: professores_dcp
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

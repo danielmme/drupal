@@ -1,0 +1,22 @@
+uuid: 4b19da29-ca44-4a13-8d06-6da2eff96091
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.disciplina
+id: node.disciplina.promote
+field_name: promote
+entity_type: node
+bundle: disciplina
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

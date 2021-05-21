@@ -1,0 +1,21 @@
+uuid: d2b87ab4-af0b-4f8a-b73c-7249aab7025f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pesquisa_data
+    - node.type.pesquisa
+  module:
+    - datetime
+id: node.pesquisa.field_pesquisa_data
+field_name: field_pesquisa_data
+entity_type: node
+bundle: pesquisa
+label: Data
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

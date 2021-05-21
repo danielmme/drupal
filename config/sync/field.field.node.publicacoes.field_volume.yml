@@ -1,0 +1,21 @@
+uuid: 79529dd1-9d10-42fc-8d3c-439351aa2197
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volume
+    - node.type.publicacoes
+  module:
+    - text
+id: node.publicacoes.field_volume
+field_name: field_volume
+entity_type: node
+bundle: publicacoes
+label: Volume
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,15 @@
+uuid: 4b9bc64d-e11a-40fc-8058-ade18fb3cbe8
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eG7FAwhqEjokKOmeRuoDjNNVkXfyCjKuFOVF3S56BmQ
+id: authenticated
+label: 'Usuário autenticado'
+weight: 1
+is_admin: false
+permissions:
+  - ''
+  - 'access content'
+  - 'opt-in or out of google analytics tracking'
+  - 'search content'

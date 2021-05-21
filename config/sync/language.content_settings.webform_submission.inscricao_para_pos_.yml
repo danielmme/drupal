@@ -1,0 +1,11 @@
+uuid: c28f178e-3d64-4de4-964d-436e0ca0dd67
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.inscricao_para_pos_
+id: webform_submission.inscricao_para_pos_
+target_entity_type_id: webform_submission
+target_bundle: inscricao_para_pos_
+default_langcode: site_default
+language_alterable: false

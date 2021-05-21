@@ -1,0 +1,14 @@
+uuid: 68e32ee0-7daf-4fac-9f73-a6b640f85fd8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.docente_dcp
+  module:
+    - user
+id: user_add_role_action.docente_dcp
+label: 'Add the Docente DCP role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: docente_dcp

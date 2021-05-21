@@ -1,0 +1,114 @@
+uuid: f5bec0bd-2a75-4f3d-8847-203421a4471e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_nome
+field_name: field_nome
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 'Adrian Gurza Lavalle'
+    -
+      value: '2'
+      label: 'Álvaro de Vita'
+    -
+      value: '3'
+      label: 'Amâncio Jorge Silva Nunes de Oliveira'
+    -
+      value: '4'
+      label: 'André Vitor Singer'
+    -
+      value: '5'
+      label: 'Bernardo Ricupero'
+    -
+      value: '6'
+      label: 'Brigitte Weiffen'
+    -
+      value: '7'
+      label: 'Bruno Wilhelm Speck'
+    -
+      value: '8'
+      label: 'Cícero Romão Resende de Araújo'
+    -
+      value: '9'
+      label: 'Eduardo Cesar Leão Marques'
+    -
+      value: '10'
+      label: 'Elizabeth Balbachevsky'
+    -
+      value: '11'
+      label: 'Eunice Ostrensky'
+    -
+      value: '12'
+      label: 'Fernando Haddad'
+    -
+      value: '13'
+      label: 'Fernando Limongi'
+    -
+      value: '14'
+      label: 'Glauco Peres da Silva'
+    -
+      value: '15'
+      label: 'Janina Onuki'
+    -
+      value: '16'
+      label: 'Jean Tible'
+    -
+      value: '17'
+      label: 'João Paulo Candia Veiga'
+    -
+      value: '18'
+      label: 'Jonathan Phillips'
+    -
+      value: '19'
+      label: 'José Álvaro Moisés'
+    -
+      value: '20'
+      label: 'Lorena Guadalupe Barberia'
+    -
+      value: '21'
+      label: 'Lucio Felix Frederico Kowarick'
+    -
+      value: '22'
+      label: 'Maria Herminia Tavares de Almeida'
+    -
+      value: '23'
+      label: 'Marta Teresa da Silva Arretche'
+    -
+      value: '24'
+      label: 'Oliveiros da Silva Ferreira'
+    -
+      value: '25'
+      label: 'Paolo Ricci'
+    -
+      value: '26'
+      label: 'Patrício Tierno'
+    -
+      value: '27'
+      label: 'Rafael Villa'
+    -
+      value: '28'
+      label: 'Rogério Bastos Arantes'
+    -
+      value: '29'
+      label: 'Rossana Rocha Reis'
+    -
+      value: '30'
+      label: 'Rúrio Melo'
+    -
+      value: '31'
+      label: 'Wagner Pralon Mancuso'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

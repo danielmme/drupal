@@ -1,0 +1,18 @@
+uuid: a3a6313d-7bde-42c9-b889-0ef3098550df
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.languages_supported
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.languages_supported
+target_entity_type_id: taxonomy_term
+target_bundle: languages_supported
+default_langcode: site_default
+language_alterable: false

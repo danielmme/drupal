@@ -1,0 +1,18 @@
+uuid: bb55e432-9bb0-4d9e-9123-a8dd5714efad
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_designer
+id: taxonomy_term.font_designer.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: font_designer
+label: Alterado
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

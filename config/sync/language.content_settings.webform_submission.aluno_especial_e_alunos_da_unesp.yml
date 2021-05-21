@@ -1,0 +1,11 @@
+uuid: 1d0dcdc6-c273-4d57-a9c9-325350bdb0bf
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - webform.webform.aluno_especial_e_alunos_da_unesp
+id: webform_submission.aluno_especial_e_alunos_da_unesp
+target_entity_type_id: webform_submission
+target_bundle: aluno_especial_e_alunos_da_unesp
+default_langcode: site_default
+language_alterable: false

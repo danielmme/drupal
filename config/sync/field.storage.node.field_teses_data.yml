@@ -1,0 +1,18 @@
+uuid: fba10442-e9a9-4ac1-8926-e5c5d8fc6b25
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_teses_data
+field_name: field_teses_data
+entity_type: node
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

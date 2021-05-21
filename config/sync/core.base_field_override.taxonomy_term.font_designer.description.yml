@@ -1,0 +1,20 @@
+uuid: 9407d07a-c5cc-4cc5-b02c-15ba25732f98
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.font_designer
+  module:
+    - text
+id: taxonomy_term.font_designer.description
+field_name: description
+entity_type: taxonomy_term
+bundle: font_designer
+label: Descrição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

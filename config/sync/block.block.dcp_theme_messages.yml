@@ -1,0 +1,22 @@
+uuid: 37f1482d-32a0-40ce-b792-168034b645e0
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dcp_theme
+_core:
+  default_config_hash: YhIdku5RK1yLsD3-zp98ZwGbaRyeiknyxMEREnXYmyc
+id: dcp_theme_messages
+theme: dcp_theme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  provider: system
+  label_display: '0'
+visibility: {  }

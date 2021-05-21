@@ -1,0 +1,11 @@
+uuid: 2fbdee2f-cafb-4026-969c-300a18b14c53
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.aluno
+id: node.aluno
+target_entity_type_id: node
+target_bundle: aluno
+default_langcode: site_default
+language_alterable: false

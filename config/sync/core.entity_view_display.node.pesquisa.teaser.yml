@@ -1,0 +1,32 @@
+uuid: 3e96819b-9197-4100-9890-02782798c770
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pesquisa.field_pesquisa_autor
+    - field.field.node.pesquisa.field_pesquisa_data
+    - field.field.node.pesquisa.field_pesquisa_descricao
+    - field.field.node.pesquisa.field_pesquisa_subtitulo
+    - node.type.pesquisa
+  module:
+    - user
+id: node.pesquisa.teaser
+targetEntityType: node
+bundle: pesquisa
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_pesquisa_autor: true
+  field_pesquisa_data: true
+  field_pesquisa_descricao: true
+  field_pesquisa_subtitulo: true
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: f463d3be-894e-41ab-823c-3023a909c309
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.autor
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.autor
+target_entity_type_id: paragraph
+target_bundle: autor
+default_langcode: site_default
+language_alterable: false
